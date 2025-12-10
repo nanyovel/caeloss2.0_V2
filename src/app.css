@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  /* background: #535353; */
+  background-color: #3e3e3e;
+  /* background-color: #60859e; */
+  background-color: #60859e;
+  /* background-color: #7a8891; */
+  /* background-color: #011f34; */
+
+  /* background-image: repeating-linear-gradient(-135deg, #0e488f, #609ce6 350px); */
+}
+
+/* body::-webkit-scrollbar{
+    width: 3px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #19b4ef;
+    border-radius: 7px;
+} */

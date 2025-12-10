@@ -1,0 +1,3438 @@
+[
+  {
+    "urlFotoPerfil": "https://firebasestorage.googleapis.com/v0/b/caelossoficial.appspot.com/o/avatars%2FfotoPerfilgmercedes?alt=media&token=816a65e3-f553-4522-b435-b323729d14ac",
+    "licencia": "",
+    "id": "01vcZWKBKcbiD2m04PG4oxWzuoK2",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "fullAccessMMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "code": "fullAccessFletes",
+        "valor": false
+      }
+    ],
+    "apellido": "Mercedes",
+    "userName": "gmercedes",
+    "correo": "gmercedes@cielosacusticos.com",
+    "posicion": "Venta ",
+    "sucursal": "Santiago",
+    "dpto": "Ventas",
+    "idUsuario": "",
+    "nombre": "Grace ",
+    "fechaRegistro": "01/07/2024 11:40:35:755 AM"
+  },
+  {
+    "id": "0XcOgMbB0sfBBB5vb4duBvsw6tI3",
+    "dpto": "Operaciones & Logistica",
+    "correo": "jrodriguez@cielosacusticos.com",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessDashboard"
+      },
+      {
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "fechaRegistro": "03/05/2024 10:35:24:095 AM",
+    "urlFotoPerfil": "",
+    "licencia": "",
+    "sucursal": "Principal",
+    "apellido": "Rodriguez",
+    "idUsuario": "",
+    "userName": "jrodriguez",
+    "posicion": "Aux. de despacho",
+    "nombre": "Jorge"
+  },
+  {
+    "sucursal": "Zona Oriental",
+    "privilegios": [
+      {
+        "valor": false,
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessMMS"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false,
+        "code": "accessRoot"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "posicion": "Encargado de almacen",
+    "fechaRegistro": "07/05/2024 11:31:15:217 AM",
+    "nombre": "Andy",
+    "urlFotoPerfil": "",
+    "userName": "areyes",
+    "correo": "areyes@cielosacusticos.com",
+    "licencia": "",
+    "idUsuario": "",
+    "dpto": "Operaciones & Logistica",
+    "apellido": "Reyes Vargas",
+    "id": "3LVqVfq4MjMfpIaRKxyWECtYB8w2"
+  },
+  {
+    "dpto": "Operaciones & Logistica",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS"
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "idUsuario": "3qfIUdxuZicipBbYd5jTwNLGxfA3",
+    "id": "3qfIUdxuZicipBbYd5jTwNLGxfA3",
+    "licencia": "",
+    "userName": "csolano",
+    "correo": "csolano@cielosacusticos.com",
+    "posicion": "Auxiliar de Transportación y Logística",
+    "apellido": "Solano",
+    "sucursal": "Principal",
+    "nombre": "Christian ",
+    "fechaRegistro": "01/04/2024 08:27:01:962 AM",
+    "urlFotoPerfil": "https://firebasestorage.googleapis.com/v0/b/caelossoficial.appspot.com/o/avatars%2FfotoPerfilcsolano?alt=media&token=9b2d05b8-5ac2-4088-a79d-7a4655f42605"
+  },
+  {
+    "id": "4h0xaEYu4PTbtKjfcmFfVCzLrQC3",
+    "sucursal": "PRINCIPAL",
+    "apellido": "ROA",
+    "dpto": "Proyectos",
+    "userName": "mroa",
+    "idUsuario": "",
+    "nombre": "MARIEL",
+    "correo": "mroa@cielosacusticos.com",
+    "licencia": "",
+    "urlFotoPerfil": "",
+    "posicion": "ASISTENTE DE PROYECTOS ",
+    "privilegios": [
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessTMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessMMS"
+      },
+      {
+        "descripcion": "Acceso total al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard",
+        "valor": false
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot",
+        "valor": false
+      },
+      {
+        "code": "fullAccessFletes",
+        "valor": false,
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "fechaRegistro": "13/12/2024 10:24:52:417 AM"
+  },
+  {
+    "id": "4mY2nQdy4bc7jmyTZYEFJJM9YRW2",
+    "nombre": "Jhoel",
+    "idUsuario": "4mY2nQdy4bc7jmyTZYEFJJM9YRW2",
+    "urlFotoPerfil": "",
+    "licencia": "",
+    "apellido": "Taveras",
+    "sucursal": "Charles Sumner Los Prados ",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS",
+        "valor": false
+      },
+      {
+        "code": "fullAccessMMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessDashboard"
+      },
+      {
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot"
+      }
+    ],
+    "userName": "jtaveras",
+    "posicion": "Cotizaciones ",
+    "dpto": "Ventas",
+    "correo": "jtaveras@cielosacusticos.com",
+    "fechaRegistro": "02/04/2024 11:53:57:147 AM"
+  },
+  {
+    "privilegios": [
+      {
+        "valor": true,
+        "code": "fullAccessIMS"
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "code": "fullAccessFletes"
+      }
+    ],
+    "fechaRegistro": "02/04/2024 09:25:12:117 AM",
+    "userName": "jgonzalez",
+    "posicion": "Encargado de compras",
+    "correo": "jgonzalez@cielosacusticos.com",
+    "nombre": "Jhon",
+    "apellido": "Gonzalez",
+    "dpto": "Compras e Importacion",
+    "id": "5CUhdnjN6yYAIPEX9eAXXhnnaXn1",
+    "sucursal": "Principal"
+  },
+  {
+    "apellido": "Peguero",
+    "fechaRegistro": "02/05/2024 11:27:11:084 AM",
+    "dpto": "Proyectos",
+    "id": "6YsEE8wbSugalGea1OzzUAiKH4o2",
+    "posicion": "Administradora",
+    "urlFotoPerfil": "",
+    "nombre": "Dionelis",
+    "sucursal": "Principal",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot"
+      }
+    ],
+    "idUsuario": "",
+    "userName": "dpeguero",
+    "correo": "dpeguero@cielosacusticos.com",
+    "licencia": ""
+  },
+  {
+    "sucursal": "POSTO DESIGN",
+    "id": "7eWsqGLx4bW0tCT0p16QrHvgkqi1",
+    "privilegios": [
+      {
+        "valor": false,
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessTMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessMMS"
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessDashboard"
+      },
+      {
+        "valor": false,
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      },
+      {
+        "code": "fullAccessFletes",
+        "valor": false,
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "posicion": "ASESOR",
+    "apellido": "FRANCESCHI",
+    "dpto": "Ventas",
+    "correo": "pfranceschi@cielosacusticos.com",
+    "licencia": "",
+    "fechaRegistro": "25/04/2024 04:21:40:068 PM",
+    "userName": "pfranceschi",
+    "nombre": "PATRICIA",
+    "idUsuario": "",
+    "urlFotoPerfil": ""
+  },
+  {
+    "correo": "alora@cielosacusticos.com",
+    "licencia": "",
+    "apellido": "Lora ",
+    "userName": "alora",
+    "idUsuario": "",
+    "posicion": "Asesora ",
+    "nombre": "Ana ",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot"
+      }
+    ],
+    "urlFotoPerfil": "",
+    "fechaRegistro": "10/04/2024 12:15:37:838 PM",
+    "id": "7hGscXN71BX1YrQ3NGsn9ylafzG2",
+    "dpto": "Posto",
+    "sucursal": "Santo Domingo"
+  },
+  {
+    "sucursal": "Principal",
+    "id": "8B6oP6GAqcf549kzglXEPc9cx503",
+    "userName": "vcarbonell",
+    "licencia": "",
+    "fechaRegistro": "02/04/2024 11:15:40:440 AM",
+    "nombre": "Vladimir",
+    "posicion": "Gerente almacen",
+    "dpto": "Operaciones & Logistica",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": true,
+        "code": "fullAccessIMS"
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS"
+      },
+      {
+        "code": "fullAccessMMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot",
+        "valor": false
+      },
+      {
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "valor": false
+      }
+    ],
+    "urlFotoPerfil": "https://firebasestorage.googleapis.com/v0/b/caelossoficial.appspot.com/o/avatars%2FfotoPerfilvcarbonell?alt=media&token=01c0f53c-f888-4204-a736-717331c697b0",
+    "idUsuario": "8B6oP6GAqcf549kzglXEPc9cx503",
+    "correo": "vcarbonell@cielosacusticos.com",
+    "apellido": "Carbonell"
+  },
+  {
+    "dpto": "",
+    "correo": "hangeles@cielosacusticos.com",
+    "apellido": "Angeles",
+    "privilegios": [
+      {
+        "valor": false,
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessMMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false,
+        "code": "accessRoot"
+      }
+    ],
+    "licencia": "",
+    "id": "8MuyLzTry4cR16R6CIdykm5AdaK2",
+    "nombre": "Hairo ",
+    "fechaRegistro": "30/08/2024 01:21:28:724 PM",
+    "userName": "hangeles",
+    "sucursal": "USA",
+    "urlFotoPerfil": "https://firebasestorage.googleapis.com/v0/b/caelossoficial.appspot.com/o/avatars%2FfotoPerfilhangeles?alt=media&token=a2ede040-4f91-423b-8625-a9f791b23f26",
+    "posicion": "E-commerce manager",
+    "idUsuario": ""
+  },
+  {
+    "dpto": "Ventas",
+    "apellido": "GALVA",
+    "posicion": "SERVCO AL CLIENTE Y VENTA ",
+    "urlFotoPerfil": "",
+    "userName": "lgalva",
+    "licencia": "",
+    "idUsuario": "",
+    "sucursal": "CHARLES SUMMER",
+    "nombre": "LUCIDALIA",
+    "privilegios": [
+      {
+        "valor": false,
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessMMS"
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessDashboard"
+      },
+      {
+        "code": "accessRoot",
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "code": "fullAccessFletes",
+        "valor": false
+      }
+    ],
+    "fechaRegistro": "15/04/2024 09:30:42:053 AM",
+    "correo": "lgalva@cielosacusticos.com",
+    "id": "8l20ZJfQtkTkXbC4Gv1wbFQNHji1"
+  },
+  {
+    "apellido": "Bonilla Alberto",
+    "fechaRegistro": "20/06/2024 10:30:09:611 AM",
+    "dpto": "Ventas",
+    "id": "B08t612UQESksMz4HgQ8vgPEqYd2",
+    "correo": "pbonilla@cielosacusticos.com",
+    "nombre": "Mari Pily",
+    "urlFotoPerfil": "",
+    "licencia": "",
+    "userName": "pbonilla",
+    "idUsuario": "",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessMMS"
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard",
+        "valor": false
+      },
+      {
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "valor": false,
+        "code": "fullAccessFletes"
+      }
+    ],
+    "posicion": "ejecutivo de ventas externas",
+    "sucursal": "zona oriental"
+  },
+  {
+    "apellido": "DIAZ",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessTMS"
+      },
+      {
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "sucursal": "PRINCIPAL",
+    "nombre": "GIMERY",
+    "posicion": "VENDEDORA",
+    "id": "B84qIoUbdvRdWwntZVP1Vx5msVs1",
+    "fechaRegistro": "22/04/2024 02:59:47:146 PM",
+    "dpto": "Ventas",
+    "correo": "gdiaz@cielosacusticos.com",
+    "userName": "gdiaz",
+    "idUsuario": "",
+    "licencia": "",
+    "urlFotoPerfil": ""
+  },
+  {
+    "idUsuario": "Bw2V48ogX5aRdQqr6B9qQAtF9SD3",
+    "userName": "ematos",
+    "plantillas": {
+      "solicitudTransporte": []
+    },
+    "id": "Bw2V48ogX5aRdQqr6B9qQAtF9SD3",
+    "urlFotoPerfil": "",
+    "dpto": "Operaciones & Logistica",
+    "fechaRegistro": "02/04/2024 09:13:10:279 AM",
+    "sucursal": "Principal",
+    "posicion": "GERENTE DE LOGISTICA ",
+    "nombre": "Eduar ",
+    "licencia": "",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessMMS"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "apellido": "Matos",
+    "correo": "ematos@cielosacusticos.com"
+  },
+  {
+    "privilegios": [
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "valor": false,
+        "code": "fullAccessFletes"
+      }
+    ],
+    "urlFotoPerfil": "",
+    "id": "CEi8Wmh2cqf5CWGFBtC833jXyUX2",
+    "fechaRegistro": "15/04/2024 11:03:34:715 AM",
+    "idUsuario": "",
+    "posicion": "Gerente Comercial",
+    "userName": "rgil",
+    "dpto": "Ventas",
+    "licencia": "",
+    "apellido": "Gil",
+    "sucursal": "P Y L ",
+    "correo": "rgil@pyldecoraciones.com",
+    "nombre": "Vanessa"
+  },
+  {
+    "idUsuario": "CJRGqcQxmQUCp9sJQUjZwgvjvDk2",
+    "privilegios": [
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS"
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "code": "fullAccessFletes"
+      }
+    ],
+    "apellido": "",
+    "posicion": "",
+    "userName": "cmendez",
+    "dpto": "Proyectos",
+    "id": "CJRGqcQxmQUCp9sJQUjZwgvjvDk2",
+    "licencia": "",
+    "correo": "cmendez@cielosacusticos.com",
+    "sucursal": "",
+    "nombre": "",
+    "urlFotoPerfil": "",
+    "fechaRegistro": "04/04/2024 09:10:28:592 AM"
+  },
+  {
+    "dpto": "Operaciones & Logistica",
+    "fechaRegistro": "27/09/2024 03:39:21:887 PM",
+    "id": "CesAvyctUfh2Pm2BCC0AOxhf8Bd2",
+    "idUsuario": "",
+    "licencia": "",
+    "urlFotoPerfil": "",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS",
+        "valor": false
+      },
+      {
+        "code": "fullAccessDashboard",
+        "valor": false,
+        "descripcion": "Acceso total al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot"
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "code": "fullAccessFletes"
+      }
+    ],
+    "apellido": "Viveros",
+    "sucursal": "Pantoja",
+    "posicion": "Gerente de Operaciones",
+    "correo": "eviveros@cielosacusticos.com",
+    "nombre": "Edgar",
+    "userName": "eviveros"
+  },
+  {
+    "dpto": "Compras e Importacion",
+    "sucursal": "",
+    "nombre": "",
+    "correo": "asistente.compras@cielosacusticos.com",
+    "urlFotoPerfil": "",
+    "apellido": "",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": true
+      },
+      {
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard",
+        "valor": false
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "valor": false,
+        "code": "fullAccessFletes"
+      }
+    ],
+    "idUsuario": "DPxenxSChZQWdodAW4sT995ZH9u1",
+    "id": "DPxenxSChZQWdodAW4sT995ZH9u1",
+    "fechaRegistro": "02/04/2024 09:25:14:094 AM",
+    "licencia": "",
+    "userName": "asistentecompras",
+    "posicion": ""
+  },
+  {
+    "dpto": "Proyectos",
+    "fechaRegistro": "17/04/2024 01:24:42:628 PM",
+    "userName": "hdelarosa",
+    "privilegios": [
+      {
+        "valor": false,
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessTMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessMMS"
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessDashboard"
+      },
+      {
+        "code": "accessRoot",
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      }
+    ],
+    "id": "DYI0d25872bw5h7oFsdBdVxabET2",
+    "idUsuario": "",
+    "apellido": "De La Rosa Ureña",
+    "sucursal": "Bávaro",
+    "urlFotoPerfil": "",
+    "correo": "hdelarosa@cielosacusticos.com",
+    "nombre": "Hiara Mercedes",
+    "posicion": "Asesora de Proyectos",
+    "licencia": ""
+  },
+  {
+    "dpto": "Proyectos",
+    "fechaRegistro": "13/12/2024 09:36:27:178 AM",
+    "sucursal": "Principal",
+    "userName": "jlorenzo",
+    "urlFotoPerfil": "",
+    "idUsuario": "",
+    "licencia": "",
+    "correo": "jlorenzo@cielosacusticos.com",
+    "apellido": "Martinez Lorenzo",
+    "id": "HU13a1gnxOZG5KPi6ocjr5s4zRG3",
+    "privilegios": [
+      {
+        "valor": false,
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS",
+        "valor": false
+      },
+      {
+        "code": "fullAccessDashboard",
+        "valor": false,
+        "descripcion": "Acceso total al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot",
+        "valor": false
+      }
+    ],
+    "nombre": "Julio Joan",
+    "posicion": "Analista de Proyectos"
+  },
+  {
+    "posicion": "Ejecutivas en Ventas ",
+    "licencia": "",
+    "dpto": "Ventas",
+    "nombre": "Maribel ",
+    "fechaRegistro": "02/04/2024 10:22:33:484 AM",
+    "urlFotoPerfil": "https://firebasestorage.googleapis.com/v0/b/caelossoficial.appspot.com/o/avatars%2FfotoPerfilmmeran?alt=media&token=4ba4c9b4-b04c-4d45-9368-b807665cc0f7",
+    "idUsuario": "IAYL39iVBVXHDpFnB8XgP18qj7A3",
+    "sucursal": "Santana ",
+    "apellido": "Meran ",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS",
+        "valor": false
+      },
+      {
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS"
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard"
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "id": "IAYL39iVBVXHDpFnB8XgP18qj7A3",
+    "userName": "mmeran",
+    "correo": "mmeran@cielosacusticos.com"
+  },
+  {
+    "userName": "erodriguez",
+    "correo": "erodriguez@cielosacusticos.com",
+    "nombre": "Estefani",
+    "urlFotoPerfil": "",
+    "id": "IPviDnaI1Pd8gPEgdhCL8SdqTQ82",
+    "idUsuario": "IPviDnaI1Pd8gPEgdhCL8SdqTQ82",
+    "fechaRegistro": "03/04/2024 10:23:15:269 AM",
+    "dpto": "Proyectos",
+    "posicion": "Analista de Proyectos",
+    "licencia": "",
+    "apellido": "Rodríguez Herrera",
+    "sucursal": "Principal",
+    "privilegios": [
+      {
+        "valor": false,
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "valor": false
+      }
+    ]
+  },
+  {
+    "nombre": "Laury Nicole",
+    "idUsuario": "",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS",
+        "valor": false
+      },
+      {
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "fullAccessDashboard",
+        "valor": false,
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "accessRoot",
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      }
+    ],
+    "licencia": "",
+    "urlFotoPerfil": "https://firebasestorage.googleapis.com/v0/b/caelossoficial.appspot.com/o/avatars%2FfotoPerfillnunez?alt=media&token=3b44b3a2-0906-4cbb-924f-5700e061b59f",
+    "dpto": "Ventas",
+    "userName": "lnunez",
+    "registrosActividad": {
+      "visitas": [
+        {
+          "fecha": "21/12/2024 09:14:12:435 AM",
+          "url": "/transportes"
+        },
+        {
+          "url": "/fletes",
+          "fecha": "21/12/2024 09:58:14:136 AM"
+        },
+        {
+          "fecha": "21/12/2024 12:13:06:180 PM",
+          "url": "/"
+        },
+        {
+          "url": "/materiales",
+          "fecha": "21/12/2024 12:13:07:550 PM"
+        },
+        {
+          "url": "/materiales/plafoncomercial",
+          "fecha": "21/12/2024 12:13:08:772 PM"
+        }
+      ]
+    },
+    "fechaRegistro": "15/04/2024 09:00:03:193 AM",
+    "correo": "lnunez@cielosacusticos.com",
+    "sucursal": "Principal",
+    "apellido": "Nuñez",
+    "id": "JFe45Gg2dNeDpmnMjEOjZVK0Phg2",
+    "posicion": "Ejecutivo de Ventas "
+  },
+  {
+    "apellido": "Capote",
+    "dpto": "Ventas",
+    "sucursal": "Santo Domingo",
+    "userName": "mcapote",
+    "id": "JFrxKCyEVNTMZWZUgylXX94DwLi1",
+    "seguimientos": [
+      {
+        "codigoItem": "04367",
+        "descripcionItem": "Masilla Easy Finish en cubeta (5GL - 61.7LB / 28KG)",
+        "nota": "agucate es salud",
+        "activo": false,
+        "fecha": "16/04/2024 10:30:02:779 AM"
+      },
+      {
+        "codigoItem": "03019",
+        "descripcionItem": "Plancha de Durock  4' x 8' - 1/2\" (E12DK08EG)",
+        "fecha": "16/04/2024 09:08:13:384 PM",
+        "activo": false,
+        "nota": ""
+      },
+      {
+        "nota": "priueba",
+        "descripcionItem": "Plancha de yeso LightRey 4' x 8' - 1/2\"",
+        "fecha": "14/06/2024 10:50:31:674 AM",
+        "activo": false,
+        "codigoItem": "03119"
+      }
+    ],
+    "correo": "mcapote@cielosacusticos.com",
+    "posicion": "Gerente de exportaciones y canales alternos",
+    "urlFotoPerfil": "https://firebasestorage.googleapis.com/v0/b/caelossoficial.appspot.com/o/avatars%2FfotoPerfilmcapote?alt=media&token=526fed16-8eff-4011-abb5-9849762010b6",
+    "idUsuario": "JFrxKCyEVNTMZWZUgylXX94DwLi1",
+    "nombre": "Mayerlin",
+    "fechaRegistro": "02/04/2024 03:45:34:809 PM",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessMMS"
+      },
+      {
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "code": "fullAccessFletes"
+      }
+    ],
+    "licencia": ""
+  },
+  {
+    "id": "KP7nGelwXjVmhKX2OYMhIHUfsWs1",
+    "posicion": "Ejecutiva de ventas.",
+    "licencia": "",
+    "dpto": "Ventas",
+    "correo": "mreyes@cielosacusticos.com",
+    "urlFotoPerfil": "https://firebasestorage.googleapis.com/v0/b/caelossoficial.appspot.com/o/avatars%2FfotoPerfilmreyes?alt=media&token=04247aff-93e5-47c3-8738-c99411e7fe14",
+    "idUsuario": "KP7nGelwXjVmhKX2OYMhIHUfsWs1",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot"
+      }
+    ],
+    "sucursal": "Santiago",
+    "userName": "mreyes",
+    "apellido": "Reyes A.",
+    "fechaRegistro": "01/04/2024 11:50:46:192 AM",
+    "nombre": "Lic. Marleny p."
+  },
+  {
+    "sucursal": "Charle Summer",
+    "licencia": "",
+    "idUsuario": "",
+    "urlFotoPerfil": "",
+    "nombre": "Ruben ",
+    "userName": "rbeltre",
+    "dpto": "Ventas",
+    "privilegios": [
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS"
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessDashboard"
+      },
+      {
+        "code": "accessRoot",
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "valor": false,
+        "code": "fullAccessFletes"
+      }
+    ],
+    "id": "KdLJXhlSRoVJw2NSX9XzuntWGbv1",
+    "posicion": "Ventas",
+    "fechaRegistro": "15/04/2024 09:29:03:151 AM",
+    "correo": "rbeltre@cielosacusticos.com",
+    "apellido": "Beltre"
+  },
+  {
+    "correo": "spimentel@cielosacusticos.com",
+    "urlFotoPerfil": "",
+    "licencia": "",
+    "fechaRegistro": "07/10/2024 03:34:23:006 PM",
+    "dpto": "Operaciones & Logistica",
+    "apellido": "feliz pimentel",
+    "id": "LbFn4FKLPQgrkyREmmr2QIpPaZ12",
+    "nombre": "sadra",
+    "posicion": "encargadod e almacen y logistica",
+    "idUsuario": "",
+    "sucursal": "bavaro ",
+    "userName": "spimentel",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessIMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS",
+        "valor": false
+      },
+      {
+        "code": "fullAccessDashboard",
+        "valor": false,
+        "descripcion": "Acceso total al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "accessRoot",
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      },
+      {
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "valor": false
+      }
+    ]
+  },
+  {
+    "sucursal": "",
+    "apellido": "",
+    "fechaRegistro": "15/04/2024 03:06:47:783 PM",
+    "licencia": "",
+    "idUsuario": "",
+    "posicion": "",
+    "userName": "crosario",
+    "correo": "crosario@cielosacusticos.com",
+    "id": "NchIuN3L2PNHw1pSIJ7DAWDia6q2",
+    "privilegios": [
+      {
+        "valor": false,
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS",
+        "valor": false
+      },
+      {
+        "code": "fullAccessMMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "code": "fullAccessFletes",
+        "valor": false
+      }
+    ],
+    "urlFotoPerfil": "",
+    "dpto": "Proyectos",
+    "nombre": ""
+  },
+  {
+    "posicion": "Ejecutiva de ventas externas",
+    "userName": "icardozo",
+    "apellido": "Cardozo",
+    "urlFotoPerfil": "",
+    "fechaRegistro": "30/04/2024 03:40:48:506 PM",
+    "privilegios": [
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS"
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessDashboard",
+        "valor": false,
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false
+      }
+    ],
+    "licencia": "",
+    "sucursal": "Posto Design",
+    "nombre": "Isabel ",
+    "idUsuario": "",
+    "id": "O7aS5qh69BNGK49o3yQM28DkXCv2",
+    "dpto": "Ventas",
+    "correo": "icardozo@cielosacusticos.com"
+  },
+  {
+    "privilegios": [
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessMMS"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false,
+        "code": "accessRoot"
+      }
+    ],
+    "apellido": "Martinez",
+    "posicion": "Diseñador Modular ",
+    "sucursal": "Posto Design ",
+    "id": "PlColerNvbZ4RUJoLODfSbTqSGi1",
+    "correo": "fmartinez@cielosacusticos.com",
+    "userName": "fmartinez",
+    "licencia": "",
+    "dpto": "Ventas ",
+    "nombre": "Frekner",
+    "idUsuario": "",
+    "urlFotoPerfil": "",
+    "fechaRegistro": "18/09/2024 09:54:30:101 AM"
+  },
+  {
+    "sucursal": "Pantoja",
+    "dpto": "Operaciones & Logistica",
+    "nombre": "Deury",
+    "apellido": "Valerio",
+    "posicion": "Encargado de recepcion",
+    "licencia": "",
+    "idUsuario": "",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "valor": true,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessMMS"
+      },
+      {
+        "descripcion": "Acceso total al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard",
+        "valor": false
+      },
+      {
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "code": "fullAccessFletes",
+        "valor": false
+      }
+    ],
+    "userName": "dvalerio",
+    "id": "PuT3m6AVfTZuiBvRKSKXwA9wsjM2",
+    "urlFotoPerfil": "",
+    "fechaRegistro": "27/09/2024 03:32:39:922 PM",
+    "correo": "dvalerio@cielosacusticos.com"
+  },
+  {
+    "licencia": "",
+    "apellido": "Antonio",
+    "sucursal": "Bávaro",
+    "nombre": "Ezequiel",
+    "fechaRegistro": "22/04/2024 10:57:52:336 AM",
+    "posicion": "Vendedor",
+    "correo": "ereyes@cielosacusticos.com",
+    "urlFotoPerfil": "",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessIMS"
+      },
+      {
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS",
+        "valor": false
+      },
+      {
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      }
+    ],
+    "id": "Qwwni02fwVVISJayHZPbdtn7jIr2",
+    "userName": "ereyes",
+    "seguimientos": [
+      {
+        "activo": false,
+        "descripcionItem": "Plancha de Plyrock gris 1.22m X 2.43m - 10mm (960093) 2BR",
+        "fecha": "03/05/2024 09:19:15:108 AM",
+        "codigoItem": "03063",
+        "nota": ""
+      },
+      {
+        "codigoItem": "22124",
+        "activo": true,
+        "fecha": "23/05/2024 11:21:23:906 AM",
+        "nota": "",
+        "descripcionItem": "Plycem Microconcreto 4´x 8´x 12mm (1323827)"
+      }
+    ],
+    "idUsuario": "",
+    "dpto": "Ventas"
+  },
+  {
+    "licencia": "",
+    "correo": "ndiaz@cielosacusticos.com",
+    "id": "S7Fll9P5UKYG60Th6GIh1jGFkGm2",
+    "urlFotoPerfil": "",
+    "apellido": "Diaz",
+    "idUsuario": "",
+    "posicion": "Gerente de Administracion de Proyectos",
+    "userName": "ndiaz",
+    "dpto": "Proyectos",
+    "fechaRegistro": "13/05/2024 08:53:42:821 AM",
+    "sucursal": "Santo Domingo",
+    "nombre": "Norjalis",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessIMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessDashboard"
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot",
+        "valor": false
+      }
+    ]
+  },
+  {
+    "id": "T3h2FEoPQzMeGOpgaWN9Zu4UKjw1",
+    "posicion": "ejecutivo ventas externas",
+    "userName": "bmendez",
+    "dpto": "Ventas",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS"
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false
+      }
+    ],
+    "licencia": "",
+    "sucursal": "Santiago",
+    "idUsuario": "",
+    "nombre": "Bernardo ",
+    "urlFotoPerfil": "",
+    "apellido": "Guedez",
+    "correo": "bmendez@cielosacusticos.com",
+    "fechaRegistro": "04/05/2024 10:30:42:732 AM"
+  },
+  {
+    "privilegios": [
+      {
+        "valor": true,
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessTMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessMMS"
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard"
+      },
+      {
+        "valor": false,
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      },
+      {
+        "code": "fullAccessFletes",
+        "valor": false,
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "fechaRegistro": "02/04/2024 09:26:38:274 AM",
+    "urlFotoPerfil": "",
+    "userName": "analistaimportaciones",
+    "apellido": "Moreta",
+    "idUsuario": "TPdRjrqVV1OH4akz1CcOmchvIme2",
+    "licencia": "",
+    "posicion": "Analista de importaciones",
+    "correo": "analista.importaciones@cielosacusticos.com",
+    "dpto": "Compras e Importacion",
+    "sucursal": "Principal",
+    "id": "TPdRjrqVV1OH4akz1CcOmchvIme2",
+    "nombre": "Natalia"
+  },
+  {
+    "fechaRegistro": "06/04/2024 09:17:06:262 AM",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessIMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false,
+        "code": "accessRoot"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "correo": "xhernandez@cielosacusticos.com",
+    "sucursal": "",
+    "idUsuario": "Tl0OrKiTIUNWNKLjeO14jVCCf2Z2",
+    "apellido": "",
+    "posicion": "",
+    "urlFotoPerfil": "",
+    "licencia": "",
+    "dpto": "Proyectos",
+    "id": "Tl0OrKiTIUNWNKLjeO14jVCCf2Z2",
+    "userName": "xhernandez",
+    "nombre": ""
+  },
+  {
+    "apellido": "",
+    "correo": "ojimenez@cielosacusticos.com",
+    "licencia": "",
+    "idUsuario": "",
+    "nombre": "",
+    "id": "VlbDdHZJQaOA8OKVx2qtxzCTzwl1",
+    "posicion": "",
+    "sucursal": "",
+    "fechaRegistro": "13/08/2024 01:48:22:091 PM",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessTMS"
+      },
+      {
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      }
+    ],
+    "userName": "ojimenez",
+    "dpto": "",
+    "urlFotoPerfil": ""
+  },
+  {
+    "idUsuario": "",
+    "correo": "naviles@cielosacusticos.com",
+    "posicion": "vendedor",
+    "nombre": "nestor",
+    "userName": "naviles",
+    "dpto": "Ventas",
+    "apellido": "aviles",
+    "id": "WeniquKs2nMamGV87XuP2OGcE352",
+    "urlFotoPerfil": "",
+    "sucursal": "principal",
+    "licencia": "",
+    "privilegios": [
+      {
+        "valor": false,
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessTMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessMMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessDashboard",
+        "valor": false,
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "accessRoot",
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "code": "fullAccessFletes"
+      }
+    ],
+    "fechaRegistro": "07/05/2024 11:39:42:711 AM"
+  },
+  {
+    "seguimientos": [
+      {
+        "activo": true,
+        "descripcionItem": "Masilla Easy Finish en cubeta (5GL - 61.7LB / 28KG)",
+        "nota": "joder tio",
+        "codigoItem": "04367",
+        "fecha": "12/04/2024 10:27:23:239 PM"
+      }
+    ],
+    "nombre": "Esmerkin",
+    "licencia": "",
+    "id": "XSyOn4IZKFRAdfxKtQXhaRlT25y1",
+    "correo": "epaniagua@cielosacusticos.com",
+    "userName": "epaniagua",
+    "fechaRegistro": "11/04/2024 09:13:53:471 AM",
+    "urlFotoPerfil": "https://firebasestorage.googleapis.com/v0/b/caelossoficial.appspot.com/o/avatars%2FfotoPerfilepaniagua?alt=media&token=eb7ae82b-4727-4e84-a310-cc494ad54a25",
+    "apellido": "Paniagua",
+    "privilegios": [
+      {
+        "valor": true,
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessTMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard"
+      },
+      {
+        "valor": false,
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "code": "fullAccessFletes"
+      }
+    ],
+    "idUsuario": "",
+    "dpto": "Operaciones & Logistica",
+    "sucursal": "pantoja",
+    "posicion": "Recepcion"
+  },
+  {
+    "fechaRegistro": "22/04/2024 10:55:36:594 AM",
+    "posicion": "Ejecutiva de ventas",
+    "id": "XxuJcafz2bdvCTAjS11mUSp2PaD3",
+    "sucursal": "Bavaro",
+    "correo": "yventura@cielosacusticos.com",
+    "apellido": "Ventura Pichardo",
+    "privilegios": [
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessTMS"
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS"
+      },
+      {
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot",
+        "valor": false
+      }
+    ],
+    "userName": "yventura",
+    "idUsuario": "",
+    "urlFotoPerfil": "",
+    "dpto": "Ventas ",
+    "licencia": "",
+    "nombre": "Yuribert "
+  },
+  {
+    "sucursal": "Principal",
+    "idUsuario": "",
+    "correo": "pjimenez@cielosacusticos.com",
+    "urlFotoPerfil": "",
+    "userName": "pjimenez",
+    "id": "XyOPZpKwzEbIFScgZ13ecGVzHJO2",
+    "licencia": "",
+    "fechaRegistro": "11/07/2024 03:59:22:038 PM",
+    "dpto": "Posto",
+    "nombre": "Ana Patricia",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS"
+      },
+      {
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "accessRoot",
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "apellido": "Jimenez",
+    "posicion": "Analista de Diseño"
+  },
+  {
+    "licencia": "",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessIMS"
+      },
+      {
+        "code": "fullAccessTMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot",
+        "valor": false
+      }
+    ],
+    "nombre": "Genesis ",
+    "idUsuario": "",
+    "id": "a0ieH0bOqyWzjb2FBHLgGEpGyFF2",
+    "apellido": "Hilario",
+    "urlFotoPerfil": "",
+    "correo": "ghilario@cielosacusticos.com",
+    "sucursal": "Principal",
+    "posicion": "Social Media ",
+    "dpto": "Ventas",
+    "fechaRegistro": "03/12/2024 08:50:12:603 AM",
+    "userName": "ghilario"
+  },
+  {
+    "licencia": "",
+    "id": "a9jYFZStRyZCVU6CK2GFnEi2Eh22",
+    "apellido": "De La Rosa Martinez",
+    "idUsuario": "",
+    "correo": "rdelarosa@cielosacusticos.com",
+    "posicion": "Analista",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS",
+        "valor": false
+      },
+      {
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessDashboard"
+      },
+      {
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "fullAccessFletes",
+        "valor": false,
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "userName": "rdelarosa",
+    "dpto": "Proyectos",
+    "sucursal": "Principal",
+    "nombre": "Rosangela ",
+    "urlFotoPerfil": "",
+    "fechaRegistro": "02/07/2024 10:47:36:416 AM"
+  },
+  {
+    "nombre": "Manuela",
+    "dpto": "Proyectos",
+    "privilegios": [
+      {
+        "valor": false,
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessDashboard"
+      },
+      {
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false
+      }
+    ],
+    "correo": "mvolquez@cielosacusticos.com",
+    "sucursal": "Principal",
+    "idUsuario": "",
+    "posicion": "Asesor de Ventas",
+    "fechaRegistro": "23/12/2024 10:50:45:178 AM",
+    "userName": "mvolquez",
+    "apellido": "Volquez",
+    "urlFotoPerfil": "",
+    "licencia": "",
+    "id": "aSrkJApqAdP5Bbzb1KTFN1NvWDV2"
+  },
+  {
+    "idUsuario": "",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS",
+        "valor": false
+      },
+      {
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "accessRoot",
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      },
+      {
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "valor": false
+      }
+    ],
+    "registrosActividad": {
+      "visitas": [
+        {
+          "fecha": "02/01/2025 09:23:13:132 AM",
+          "url": "/materiales/plafoncomercial"
+        },
+        {
+          "url": "/materiales",
+          "fecha": "03/01/2025 01:27:54:174 PM"
+        },
+        {
+          "fecha": "03/01/2025 01:27:55:064 PM",
+          "url": "/materiales/plafoncomercial"
+        },
+        {
+          "url": "/materiales/divisionyeso/",
+          "fecha": "04/01/2025 09:13:47:411 AM"
+        }
+      ]
+    },
+    "dpto": "Ventas",
+    "urlFotoPerfil": "https://firebasestorage.googleapis.com/v0/b/caelossoficial.appspot.com/o/avatars%2FfotoPerfiljsanchez?alt=media&token=c7ae84a7-2823-48cb-a180-c5fcc099508a",
+    "id": "bynYPyJhznTl9XnVOcDaHRmugvI2",
+    "nombre": "Jennifer",
+    "posicion": "Ejecutiva ventas externas",
+    "apellido": "Sanchez Sanchez",
+    "userName": "jsanchez",
+    "licencia": "",
+    "fechaRegistro": "20/04/2024 09:35:03:665 AM",
+    "correo": "jsanchez@cielosacusticos.com",
+    "sucursal": "Principal"
+  },
+  {
+    "licencia": "",
+    "fechaRegistro": "15/04/2024 09:08:21:080 AM",
+    "idUsuario": "",
+    "userName": "mreynoso",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessIMS"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "accessRoot",
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "code": "fullAccessFletes"
+      }
+    ],
+    "nombre": "MIRIAN",
+    "correo": "mreynoso@pyldecoraciones.com",
+    "urlFotoPerfil": "",
+    "sucursal": "PYL DECORACIONES ",
+    "posicion": "EJECUTIVA DE VENTAS",
+    "apellido": "REYNOSO ALMONTE ",
+    "dpto": "Ventas",
+    "id": "dJbp5Et2RaV8ZpsBKxsnjTErhM72"
+  },
+  {
+    "correo": "mreynoso@cielosacusticos.com",
+    "apellido": "",
+    "idUsuario": "",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false
+      }
+    ],
+    "sucursal": "",
+    "licencia": "",
+    "urlFotoPerfil": "",
+    "posicion": "",
+    "fechaRegistro": "09/09/2024 10:09:21:321 AM",
+    "dpto": "",
+    "nombre": "",
+    "userName": "mreynoso",
+    "id": "dhnEtf6XVEZ79kYoG7GN05SwyUV2"
+  },
+  {
+    "privilegios": [
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard"
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot",
+        "valor": false
+      }
+    ],
+    "posicion": "",
+    "nombre": "",
+    "id": "eF35XXi2ypTINvTEqOu8pTTXfI12",
+    "correo": "fjoubert@cielosacusticos.com",
+    "userName": "fjoubert",
+    "apellido": "",
+    "idUsuario": "eF35XXi2ypTINvTEqOu8pTTXfI12",
+    "urlFotoPerfil": "",
+    "sucursal": "",
+    "licencia": "",
+    "fechaRegistro": "02/04/2024 07:55:07:624 AM",
+    "dpto": ""
+  },
+  {
+    "dpto": "Ventas",
+    "sucursal": "PyL Decoraciones",
+    "fechaRegistro": "24/04/2024 01:32:48:913 PM",
+    "apellido": "Berroa",
+    "id": "eNpZzearFjRFAc1MfM598uyiXZh1",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessTMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS"
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard"
+      },
+      {
+        "code": "accessRoot",
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      }
+    ],
+    "licencia": "",
+    "userName": "lberroa",
+    "idUsuario": "",
+    "urlFotoPerfil": "",
+    "posicion": "Vendedora",
+    "registrosActividad": {
+      "visitas": [
+        {
+          "fecha": "23/12/2024 10:25:17:272 AM",
+          "url": "/materiales/plafonmachihembrado"
+        },
+        {
+          "fecha": "23/12/2024 10:25:17:934 AM",
+          "url": "/materiales/plafonmachihembrado"
+        },
+        {
+          "fecha": "23/12/2024 04:17:54:086 PM",
+          "url": "/materiales/plafoncomercial"
+        }
+      ]
+    },
+    "nombre": "Luz ",
+    "correo": "lberroa@cielosacusticos.com"
+  },
+  {
+    "seguimientos": [
+      {
+        "activo": false,
+        "nota": "",
+        "fecha": "22/07/2024 11:27:20:225 AM",
+        "descripcionItem": "Plancha de yeso Knauf ST 4' x 8' - 1/2\"",
+        "codigoItem": "03225"
+      }
+    ],
+    "id": "fk1quQOzwUZV5Bjtp0N6GHUM87j1",
+    "posicion": "VENTAS",
+    "idUsuario": "fk1quQOzwUZV5Bjtp0N6GHUM87j1",
+    "privilegios": [
+      {
+        "valor": false,
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS"
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot"
+      },
+      {
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "valor": false
+      }
+    ],
+    "apellido": "MONTES DE OCS ",
+    "correo": "jmontesdeoca@cielosacusticos.com",
+    "userName": "jmontesdeoca",
+    "urlFotoPerfil": "",
+    "dpto": "Ventas",
+    "licencia": "",
+    "sucursal": "ZO ORIENTAL ",
+    "nombre": "JESSICA",
+    "fechaRegistro": "02/04/2024 07:58:52:813 AM"
+  },
+  {
+    "posicion": "Asesora de Proyectos",
+    "id": "gYktKfodlkQE9bI8gogHH3uBe6K2",
+    "idUsuario": "",
+    "userName": "oarodriguez",
+    "correo": "oarodriguez@cielosacusticos.com",
+    "apellido": "Rodriguez",
+    "urlFotoPerfil": "https://firebasestorage.googleapis.com/v0/b/caelossoficial.appspot.com/o/avatars%2FfotoPerfiloarodriguez?alt=media&token=5c252465-0d8e-4d34-849c-84e6d0b32ea9",
+    "licencia": "",
+    "fechaRegistro": "30/04/2024 11:32:38:212 AM",
+    "privilegios": [
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS"
+      },
+      {
+        "code": "fullAccessTMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false,
+        "code": "accessRoot"
+      }
+    ],
+    "dpto": "Proyectos",
+    "sucursal": "Santiago",
+    "nombre": "Arletty"
+  },
+  {
+    "licencia": "",
+    "nombre": "Nicolás",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessTMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS",
+        "valor": false
+      },
+      {
+        "code": "fullAccessDashboard",
+        "valor": false,
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false
+      }
+    ],
+    "idUsuario": "",
+    "id": "hcCKGEDoFXfW8IWD8tmDNmviGIo2",
+    "apellido": "Díaz",
+    "urlFotoPerfil": "",
+    "correo": "jdiaz@cielosacusticos.com",
+    "posicion": "Coordinador",
+    "sucursal": "Bávaro",
+    "dpto": "Proyectos",
+    "fechaRegistro": "27/04/2024 03:30:27:366 PM",
+    "userName": "jdiaz"
+  },
+  {
+    "posicion": "Ejecutivo de ventas",
+    "dpto": "Ventas",
+    "sucursal": "Principal",
+    "plantillas": {
+      "solicitudTransporte": [
+        {
+          "id": "K2uJCvtOe5DoU7Ox1Toa",
+          "tipo": 0,
+          "numero": 100271,
+          "fechaAdd": "27/12/2024 10:00:25:989 AM",
+          "cliente": "Jose Perez"
+        }
+      ]
+    },
+    "id": "iuP8kbep3gX95PBXlMVlr559jXj1",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS"
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard",
+        "valor": false
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "valor": false,
+        "code": "fullAccessFletes"
+      }
+    ],
+    "correo": "jrosario@cielosacusticos.com",
+    "idUsuario": "",
+    "fechaRegistro": "07/04/2024 11:05:24:985 AM",
+    "userName": "jrosario",
+    "apellido": "Perez",
+    "licencia": "",
+    "nombre": "Junior",
+    "urlFotoPerfil": "https://firebasestorage.googleapis.com/v0/b/caelossoficial.appspot.com/o/avatars%2FfotoPerfiljrosario?alt=media&token=1d361c36-71d6-4d1d-861c-30f662ce7515"
+  },
+  {
+    "dpto": "Produccion",
+    "userName": "tchabolla",
+    "idUsuario": "kVZey6znq7VBEx4mARbqh8jwyKi2",
+    "posicion": "Gerente",
+    "licencia": "",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessIMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS",
+        "valor": false
+      },
+      {
+        "code": "fullAccessMMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard"
+      },
+      {
+        "code": "accessRoot",
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      },
+      {
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "valor": false
+      }
+    ],
+    "id": "kVZey6znq7VBEx4mARbqh8jwyKi2",
+    "urlFotoPerfil": "https://firebasestorage.googleapis.com/v0/b/caelossoficial.appspot.com/o/avatars%2FfotoPerfiltchabolla?alt=media&token=46752289-3073-4f26-8678-c94c6c891e95",
+    "correo": "tchabolla@cielosacusticos.com",
+    "fechaRegistro": "04/04/2024 05:58:28:137 PM",
+    "sucursal": "Servicielos",
+    "nombre": "Teresa",
+    "apellido": "Chabolla"
+  },
+  {
+    "userName": "jbourdierd",
+    "licencia": "",
+    "posicion": "",
+    "correo": "jbourdierd@cielosacusticos.com",
+    "sucursal": "",
+    "apellido": "",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "fullAccessTMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessMMS"
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard"
+      },
+      {
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot"
+      },
+      {
+        "code": "fullAccessFletes",
+        "valor": false,
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "urlFotoPerfil": "",
+    "nombre": "",
+    "idUsuario": "",
+    "dpto": "Proyectos",
+    "fechaRegistro": "13/05/2024 08:55:36:226 AM",
+    "id": "kjxEKnDk7EWCOOfs4qrK5b0lvwk2"
+  },
+  {
+    "userName": "aguerrero",
+    "fechaRegistro": "19/04/2024 03:31:18:134 PM",
+    "idUsuario": "",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessTMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessMMS"
+      },
+      {
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot",
+        "valor": false
+      },
+      {
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "valor": false
+      }
+    ],
+    "id": "m3GiTFBc4xP3w06bbRsrj0MYg7K2",
+    "dpto": "Posto",
+    "licencia": "",
+    "urlFotoPerfil": "",
+    "sucursal": "",
+    "apellido": "",
+    "posicion": "",
+    "nombre": "",
+    "correo": "aguerrero@cielosacusticos.com"
+  },
+  {
+    "sucursal": "Pantoja",
+    "posicion": "Gerente de digitalizacion de procesos.",
+    "userName": "jperez",
+    "permisos": ["llegadaAlmacenIMS"],
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": true,
+        "code": "fullAccessIMS"
+      },
+      {
+        "valor": true,
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": true,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS"
+      },
+      {
+        "valor": true,
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": true,
+        "code": "accessRoot"
+      },
+      {
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "valor": true
+      }
+    ],
+    "nombre": "Jose",
+    "id": "nQseHZLObmU6bQEdZD0atgSGbae2",
+    "correo": "jperez@cielosacusticos.com",
+    "dpto": "Ventas",
+    "urlFotoPerfil": "https://firebasestorage.googleapis.com/v0/b/caelossoficial.appspot.com/o/avatars%2FfotoPerfiljperez?alt=media&token=c32bdef5-4f57-4d40-8969-755ed2678fc1",
+    "apellido": "Perez",
+    "plantillas": {
+      "solicitudTransporte": []
+    },
+    "licencia": "",
+    "fechaRegistro": "07/04/2024 03:36:26:787 PM"
+  },
+  {
+    "sucursal": "Santiago",
+    "apellido": "Brito",
+    "posicion": "ventas",
+    "nombre": "Jenni ",
+    "idUsuario": "",
+    "id": "odbbnmIK98UpVnvettFttSdePNi1",
+    "dpto": "Ventas",
+    "correo": "jbrito@cielosacusticos.com",
+    "urlFotoPerfil": "https://firebasestorage.googleapis.com/v0/b/caelossoficial.appspot.com/o/avatars%2FfotoPerfiljbrito?alt=media&token=2d369c66-7765-47ec-a812-5086287ffa1f",
+    "fechaRegistro": "15/04/2024 08:40:09:316 AM",
+    "userName": "jbrito",
+    "licencia": "",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessTMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessMMS"
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard",
+        "valor": false
+      },
+      {
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false
+      }
+    ]
+  },
+  {
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessTMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessDashboard"
+      },
+      {
+        "valor": false,
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      }
+    ],
+    "fechaRegistro": "08/04/2024 01:12:45:065 PM",
+    "urlFotoPerfil": "",
+    "nombre": "Andry",
+    "userName": "aalcantara",
+    "correo": "aalcantara@cielosacusticos.com",
+    "apellido": "Chiu",
+    "idUsuario": "",
+    "licencia": "",
+    "sucursal": "Principal",
+    "posicion": "Enc. Análisis de Costo y Presupuesto",
+    "id": "pJBn8cVcneMOfTPnm7fjjdlyuSw1",
+    "dpto": "Proyectos"
+  },
+  {
+    "sucursal": "",
+    "dpto": "",
+    "userName": "rpache",
+    "correo": "rpache@cielosacusticos.com",
+    "licencia": "",
+    "apellido": "",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessTMS"
+      },
+      {
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false,
+        "code": "accessRoot"
+      }
+    ],
+    "posicion": "",
+    "id": "pi5P6wO7r9NUIHNxwjtdbDGYHBp1",
+    "nombre": "",
+    "idUsuario": "",
+    "urlFotoPerfil": "",
+    "fechaRegistro": "17/04/2024 11:20:34:495 PM"
+  },
+  {
+    "correo": "aescolastico@cielosacusticos.com",
+    "licencia": "",
+    "id": "qRnD27hJqyY2st2OXW0MtSoQUzm2",
+    "urlFotoPerfil": "",
+    "dpto": "Ventas ",
+    "apellido": "Escolastico ",
+    "posicion": "ventas Externas ",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessIMS"
+      },
+      {
+        "code": "fullAccessTMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot"
+      }
+    ],
+    "idUsuario": "qRnD27hJqyY2st2OXW0MtSoQUzm2",
+    "sucursal": "Principal ",
+    "fechaRegistro": "04/04/2024 01:47:27:489 PM",
+    "userName": "aescolastico",
+    "nombre": "Alexander Escolastico "
+  },
+  {
+    "urlFotoPerfil": "",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessIMS"
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS"
+      },
+      {
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard"
+      },
+      {
+        "code": "accessRoot",
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      }
+    ],
+    "fechaRegistro": "13/12/2024 10:57:07:286 AM",
+    "licencia": "",
+    "posicion": "Asistente de Proyectos",
+    "correo": "scastano@cielosacusticos.com",
+    "idUsuario": "",
+    "id": "qjTmtbrX76RkqXMqRiYdmeud9nt1",
+    "nombre": "Sonia",
+    "userName": "scastano",
+    "apellido": "Castaño",
+    "dpto": "Proyectos",
+    "sucursal": "Posto"
+  },
+  {
+    "privilegios": [
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessDashboard"
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "userName": "gsanchez",
+    "correo": "gsanchez@cielosacusticos.com",
+    "sucursal": "Posto",
+    "dpto": "POSTO",
+    "posicion": "Asesor de proyecto ",
+    "idUsuario": "",
+    "fechaRegistro": "31/10/2024 09:59:04:611 AM",
+    "id": "s4ELywEMsmRzlMuUyTCNclZjlcm1",
+    "nombre": "Glennys",
+    "licencia": "",
+    "urlFotoPerfil": "",
+    "apellido": "Sanchez"
+  },
+  {
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS"
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS"
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard",
+        "valor": false
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot",
+        "valor": false
+      }
+    ],
+    "id": "sb1lyHD8O7VeX2gLNQ3pY4ofIQt1",
+    "fechaRegistro": "23/04/2024 01:50:05:732 PM",
+    "sucursal": "Bávaro ",
+    "urlFotoPerfil": "",
+    "posicion": "Ejecutivas de ventas ",
+    "apellido": "Garcia ",
+    "correo": "cgarcia@cielosacusticos.com",
+    "nombre": "Candy",
+    "idUsuario": "",
+    "userName": "cgarcia",
+    "dpto": "Ventas ",
+    "licencia": ""
+  },
+  {
+    "dpto": "Operaciones & Logistica",
+    "fechaRegistro": "01/04/2024 03:31:56:189 PM",
+    "nombre": "Marcos",
+    "userName": "mcortorreal",
+    "urlFotoPerfil": "https://firebasestorage.googleapis.com/v0/b/caelossoficial.appspot.com/o/avatars%2FfotoPerfilmcortorreal?alt=media&token=0fbbca83-ec51-4a75-aae7-1e1886f905fc",
+    "licencia": "",
+    "apellido": "Cortorreal",
+    "posicion": "Encargado de almacén",
+    "sucursal": "P&L Decoraciones",
+    "correo": "mcortorreal@pyldecoraciones.com",
+    "id": "tOpWkvxN8bfIVR82sm9obWXU4rs1",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS",
+        "valor": false
+      },
+      {
+        "code": "fullAccessTMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessDashboard"
+      },
+      {
+        "code": "accessRoot",
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "code": "fullAccessFletes"
+      }
+    ]
+  },
+  {
+    "id": "tUUZrPrsldeDYrRfeY4TJqTnAig1",
+    "nombre": "RUBEN ",
+    "dpto": "Proyectos",
+    "privilegios": [
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessTMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessDashboard"
+      },
+      {
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot"
+      },
+      {
+        "code": "fullAccessFletes",
+        "valor": false,
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "idUsuario": "",
+    "userName": "rdelgado",
+    "fechaRegistro": "21/06/2024 11:24:07:960 AM",
+    "urlFotoPerfil": "",
+    "posicion": "ANALISTA ",
+    "correo": "rdelgado@cielosacusticos.com",
+    "licencia": "",
+    "apellido": "DELGADO",
+    "sucursal": "PRINCIPAL"
+  },
+  {
+    "id": "udp73jbZbrbO8syQV55ZoDVmA212",
+    "posicion": "encargada de importacion y expo",
+    "userName": "encargadoimportaciones",
+    "dpto": "Compras e Importacion",
+    "licencia": "",
+    "privilegios": [
+      {
+        "valor": true,
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS"
+      },
+      {
+        "code": "fullAccessMMS",
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessDashboard"
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false,
+        "code": "accessRoot"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "sucursal": "principal",
+    "idUsuario": "udp73jbZbrbO8syQV55ZoDVmA212",
+    "nombre": "Alexandra",
+    "urlFotoPerfil": "",
+    "apellido": "Medina",
+    "fechaRegistro": "02/04/2024 09:25:05:679 AM",
+    "correo": "encargado.importaciones@cielosacusticos.com"
+  },
+  {
+    "apellido": "reyes",
+    "registrosActividad": {
+      "visitas": [
+        {
+          "url": "/materiales/plafonmachihembrado",
+          "fecha": "21/12/2024 10:49:06:577 AM"
+        },
+        {
+          "url": "/materiales/techolisosheetrock/",
+          "fecha": "21/12/2024 10:49:07:635 AM"
+        },
+        {
+          "url": "/materiales/techolisosheetrock/",
+          "fecha": "21/12/2024 10:50:31:836 AM"
+        },
+        {
+          "url": "/materiales/plafonmachihembrado",
+          "fecha": "21/12/2024 10:50:32:742 AM"
+        },
+        {
+          "url": "/materiales/plafonmachihembrado",
+          "fecha": "21/12/2024 11:17:03:665 AM"
+        },
+        {
+          "fecha": "21/12/2024 11:17:04:226 AM",
+          "url": "/materiales/plafonmachihembrado"
+        },
+        {
+          "url": "/materiales/plafonmachihembrado",
+          "fecha": "21/12/2024 11:17:04:987 AM"
+        }
+      ]
+    },
+    "sucursal": "zona oriental",
+    "nombre": "yolanda",
+    "urlFotoPerfil": "",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessIMS"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessMMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessDashboard"
+      },
+      {
+        "valor": false,
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      },
+      {
+        "code": "fullAccessFletes",
+        "valor": false,
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular."
+      }
+    ],
+    "id": "ulbEFpfDBjgbdztn3mhaJrLOJCy2",
+    "fechaRegistro": "16/05/2024 03:11:59:832 PM",
+    "idUsuario": "",
+    "posicion": "agente de venta ",
+    "dpto": "Ventas",
+    "correo": "yreyes@cielosacusticos.com",
+    "licencia": "",
+    "userName": "yreyes"
+  },
+  {
+    "correo": "ereynoso@cielosacusticos.com",
+    "idUsuario": "",
+    "fechaRegistro": "17/04/2024 03:01:13:955 PM",
+    "urlFotoPerfil": "",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS"
+      },
+      {
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot"
+      }
+    ],
+    "nombre": "Edison Limber ",
+    "apellido": "Cabrera Reynoso",
+    "userName": "ereynoso",
+    "id": "wNtqD0BOqtZcRu2kmM10GYRZ0H13",
+    "licencia": "",
+    "posicion": "Ejecutivo de ventas ",
+    "dpto": "Ventas ",
+    "sucursal": "Principal "
+  },
+  {
+    "nombre": "",
+    "fechaRegistro": "12/04/2024 10:08:28:961 AM",
+    "correo": "wdelacruz@cielosacusticos.com",
+    "id": "xhmtCXPxa4Zp0vkF4iwSMT2DnjD2",
+    "idUsuario": "",
+    "posicion": "",
+    "apellido": "",
+    "dpto": "Ventas",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessIMS",
+        "valor": false
+      },
+      {
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard"
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false,
+        "code": "accessRoot"
+      },
+      {
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "valor": false
+      }
+    ],
+    "userName": "wdelacruz",
+    "urlFotoPerfil": "",
+    "sucursal": "",
+    "licencia": ""
+  },
+  {
+    "idUsuario": "",
+    "apellido": "Hoyos Ramirez",
+    "sucursal": "Santo Domingo",
+    "licencia": "",
+    "fechaRegistro": "15/04/2024 03:47:47:344 PM",
+    "correo": "cramirez@cielosacusticos.com",
+    "privilegios": [
+      {
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false,
+        "code": "fullAccessIMS"
+      },
+      {
+        "valor": false,
+        "code": "fullAccessTMS",
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessMMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "code": "accessRoot",
+        "descripcion": "Control total sobre Caeloss en su totalidad."
+      }
+    ],
+    "dpto": "Ventas",
+    "urlFotoPerfil": "",
+    "posicion": "Gerente",
+    "userName": "cramirez",
+    "id": "yROFblzp3qbdVZsiXaqCmx1ztIa2",
+    "nombre": "Camila"
+  },
+  {
+    "fechaRegistro": "07/05/2024 01:04:10:739 PM",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS"
+      },
+      {
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "code": "fullAccessDashboard",
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad."
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "code": "accessRoot",
+        "valor": false
+      }
+    ],
+    "correo": "dsanchez@cielosacusticos.com",
+    "userName": "dsanchez",
+    "apellido": "Sanchez",
+    "nombre": "Digna",
+    "id": "ymX2zKf65lO0Tqtkrn8j5W715mh2",
+    "urlFotoPerfil": "",
+    "licencia": "",
+    "sucursal": "Principal",
+    "posicion": "Vendedor",
+    "idUsuario": "",
+    "dpto": "Ventas"
+  },
+  {
+    "posicion": "Asesora",
+    "idUsuario": "",
+    "nombre": "Isavo",
+    "apellido": "Ruiz",
+    "userName": "iruiz",
+    "licencia": "",
+    "dpto": "Proyectos",
+    "correo": "iruiz@cielosacusticos.com",
+    "urlFotoPerfil": "",
+    "fechaRegistro": "09/04/2024 08:24:36:579 AM",
+    "privilegios": [
+      {
+        "code": "fullAccessIMS",
+        "descripcion": "Acceso total al sistema de gestion de importaciones, abarca lectura y escritura en su totalidad.",
+        "valor": false
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de transporte, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessTMS"
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al sistema de gestion de mantenimiento, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessMMS"
+      },
+      {
+        "valor": false,
+        "descripcion": "Acceso total al al dashboard, abarca lectura y escritura en su totalidad.",
+        "code": "fullAccessDashboard"
+      },
+      {
+        "descripcion": "Control total sobre Caeloss en su totalidad.",
+        "valor": false,
+        "code": "accessRoot"
+      },
+      {
+        "code": "fullAccessFletes",
+        "descripcion": "Acceso total a la calculadora de fletes, esto incluye poder de escritura sobre los valores de las unidades vehicular.",
+        "valor": false
+      }
+    ],
+    "sucursal": "Principal",
+    "id": "zZqq3OZ1uHUbyzVzzWWI0F2f3q03"
+  }
+]
