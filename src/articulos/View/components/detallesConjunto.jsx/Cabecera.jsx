@@ -22,17 +22,6 @@ import {
   Detalle3OutPutElementosLista,
   Detalle3OutPutLista,
 } from "../../../../components/JSXElements/GrupoDetalle";
-import { ClearTheme, Tema, Theme } from "../../../../config/theme";
-import { SubCategorias } from "../../../libs/SubCategoriasDB";
-import articulosDB2 from "../../../Database/itemsSubir2";
-import ModalGeneral from "../../../../components/ModalGeneral";
-import {
-  CajaTablaGroup,
-  CeldaHeadGroup,
-  CeldasBodyGroup,
-  FilasGroup,
-  TablaGroup,
-} from "../../../../components/JSXElements/GrupoTabla";
 
 export default function Cabecera({ conjuntoMaster }) {
   console.log(conjuntoMaster);

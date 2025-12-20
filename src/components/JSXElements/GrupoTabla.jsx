@@ -10,6 +10,9 @@ export const CajaTablaGroup = styled.div`
   height: 100%;
   padding: 5px 10px;
   border: 1px solid white;
+  &.altoAuto {
+    height: auto;
+  }
   *,
   *:before,
   *:after {
@@ -182,6 +185,11 @@ export const IconoCeldaDeprecated = styled.p`
     border: 1px solid #ff0000;
     background-color: #ffffffaf;
   }
+`;
+export const ImgCelda = styled.img`
+  width: 200px;
+  max-height: 70px;
+  object-fit: contain;
 `;
 
 export const JSXChildrenFooterModal = ({ total, btn }) => {

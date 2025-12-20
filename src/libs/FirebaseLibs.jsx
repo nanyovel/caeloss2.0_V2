@@ -9,66 +9,38 @@ import {
 } from "firebase/firestore";
 import db from "../firebase/firebaseConfig";
 
-// Actualizar datos en lote
-// Corregir
-// ❌❌❌❌❌❌
-// ❌❌❌❌❌❌
-// ❌❌❌❌❌❌
-// ❌❌❌❌❌❌
-// CORREGIR
-// Esta funcion actualizarDB es la funcion que ejecuta el codigo
-// Pero tiene un problema y es que al llamar la funcion actualizarDatos2 se llama dentro de un ciclo y ejecuta el commit en cada iteracion del ciclo, causando muchas escrituras a la base de datos
-// Lo correcto es actualizar el bacth en cada iteacion y hacer un solo commit
-// CORREGIR
-// ❌❌❌❌❌❌
-// ❌❌❌❌❌❌
-// ❌❌❌❌❌❌
-// ❌❌❌❌❌❌
-const actualizarDB = () => {
-  listadoDBFull.forEach((item, index) => {
-    if (true) {
-      if (item.listaMateriales.length == 0) {
-        // return;
-        const itemFind = ListaArticulos.find((articulo) => {
-          if (articulo.codigo == item.codigo) {
-            return articulo;
-          }
-        });
-        if (itemFind) {
-          actualizarDatos2(item, "ventasPerdidas", {
-            ...item,
-            costo: itemFind.costo,
-            precio: itemFind.precio,
-          });
-        }
-      } else if (item.listaMateriales.length > 0) {
-        const listaMaterialesUp = item.listaMateriales.map((material) => {
-          const itemFind = ListaArticulos.find((articulo) => {
-            if (articulo.codigo == material.codigo) {
-              return articulo;
-            }
-          });
-          if (itemFind) {
-            return {
-              ...material,
-              costo: itemFind.costo,
-              precio: itemFind.precio,
-            };
-          } else {
-            return { ...material };
-          }
-        });
+export const actualizarUnaPropiedad = async ({
+  nombreColeccion,
+  // data master es todos los objetos a actualizar, que puede ser la coleccion completa o una parte a raiz de una condicion
+  dataMaster,
+  propiedadAfectar,
+  nuevoValor,
+}) => {
+  return;
+  const batch = writeBatch(db);
 
-        actualizarDatos2(item, "ventasPerdidas", {
-          ...item,
-          listaMateriales: listaMaterialesUp,
-        });
-      }
-    }
+  dataMaster.forEach((item) => {
+    const refItemActualizar = doc(db, nombreColeccion, item.id);
+
+    batch.update(refItemActualizar, {
+      ...item,
+      [propiedadAfectar]: nuevoValor,
+    });
   });
-};
 
-export const actualizarDatos2 = async (
+  try {
+    batch.commit().then(() => {
+      console.log(
+        "propiedad " +
+          propiedadAfectar +
+          "del lote completo actualizado correctamente!"
+      );
+    });
+  } catch (error) {
+    console.log(error);
+  }
+};
+export const actualizarFullDangerous = async (
   itemActualizar,
   nombreColeccion,
   nuevoItem

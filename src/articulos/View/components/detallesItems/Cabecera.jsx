@@ -20,6 +20,8 @@ import {
 import { UnidadesMedidas } from "../../../libs/UnidadesMedida";
 import { useState } from "react";
 import SelectPaises from "../../../../components/SelectPaises";
+import { FindCat } from "../../../libs/CATEGORIASDB";
+import { FindSubCat } from "../../../libs/SubCategoriasDB";
 
 export default function Cabecera({ productMaster, modoEditar }) {
   const [selected, setSelected] = useState([]);
@@ -79,6 +81,7 @@ export default function Cabecera({ productMaster, modoEditar }) {
                   <Img
                     key={index}
                     className="flag"
+                    title={pais.label}
                     src={generatorIconFlagURL(pais.siglas)}
                   />
                 );
@@ -95,7 +98,7 @@ export default function Cabecera({ productMaster, modoEditar }) {
                 <Detalle3OutPut2222 className={"vertical"} key={index}>
                   <Icono icon={faCircleDown} />
                   <Enlace className="enlace" target="_blank" to={doc.url}>
-                    {doc.titulo}
+                    {doc.label}
                   </Enlace>
                 </Detalle3OutPut2222>
               );
@@ -109,7 +112,7 @@ export default function Cabecera({ productMaster, modoEditar }) {
               return (
                 <Detalle3OutPut2222 className={"vertical"} key={index}>
                   <Enlace className="enlace" target="_blank" to={doc.url}>
-                    {doc.titulo}
+                    {doc.label}
                   </Enlace>
                 </Detalle3OutPut2222>
               );
@@ -126,15 +129,41 @@ export default function Cabecera({ productMaster, modoEditar }) {
           <Img
             className="imagenDestacada"
             src={
-              productMaster.imagenDestacada
-                ? productMaster.imagenDestacada
+              productMaster.head.imagenDestacada
+                ? productMaster.head.imagenDestacada
                 : productMaster.galeria.imagenes[0]?.url
             }
           />
         </CajaFotoProducto>
-        <CajaNombreProducto>
-          <TituloProducto>{productMaster.head.descripcion}</TituloProducto>
-        </CajaNombreProducto>
+        <CajaDentroDetalle>
+          <CajaNombreProducto>
+            <TituloProducto>{productMaster.head.descripcion}</TituloProducto>
+          </CajaNombreProducto>
+          <Detalle1Wrap>
+            <Detalle2Titulo>Categoria*:</Detalle2Titulo>
+            <Detalle3OutPut2222>
+              <Enlace
+                target="_blank"
+                to={
+                  "/articulos/maestros/categorias/" +
+                  FindCat(productMaster.head.categoria).code
+                }
+              >
+                {FindCat(productMaster.head.categoria).nombre}
+              </Enlace>
+            </Detalle3OutPut2222>
+          </Detalle1Wrap>
+          <Detalle1Wrap>
+            <Detalle2Titulo>Sub categoria:</Detalle2Titulo>
+            <Detalle3OutPut2222>
+              {FindSubCat(productMaster.head.subCategoria).nombre}
+            </Detalle3OutPut2222>
+          </Detalle1Wrap>
+          <Detalle1Wrap>
+            <Detalle2Titulo>Marca:</Detalle2Titulo>
+            <Detalle3OutPut2222>{productMaster.head.marca}</Detalle3OutPut2222>
+          </Detalle1Wrap>
+        </CajaDentroDetalle>
       </CajaDetalles>
     </Container>
   );
@@ -163,6 +192,13 @@ const CajaDetalles = styled.div`
 
     color: white;
   }
+  &.der {
+    padding: 0;
+    overflow: hidden;
+  }
+`;
+const CajaDentroDetalle = styled.div`
+  padding: 8px;
 `;
 const Img = styled.img`
   &.flag {
@@ -171,6 +207,8 @@ const Img = styled.img`
   }
   &.imagenDestacada {
     height: 100%;
+    object-fit: contain;
+    width: 100%;
   }
 `;
 

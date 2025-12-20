@@ -6,7 +6,7 @@ import ImgFlechaDer from "./../../../../../public/img/icon/flecha-correcta-derec
 import ImgFullScreen from "./../../../../../public/img/icon/pantalla-completa-lg.png";
 import ImgNoScreen from "./../../../../../public/img/icon/minimizar.png";
 import MenuPestannias from "../../../../components/MenuPestannias";
-import { Tema } from "../../../../config/theme";
+import { ClearTheme, Tema } from "../../../../config/theme";
 
 export default function Carrusel({ productMaster, automatico }) {
   const [arrayPestannias, setArrayPestannias] = useState([
@@ -345,6 +345,8 @@ const CajaTexto = styled.div`
 const Texto = styled.h2`
   width: 100%;
   color: ${Tema.neutral.grisTextoGoogle};
+  color: ${ClearTheme.neutral.blancoCalido};
+  font-weight: 400;
   padding: 0 15px;
 `;
 const CajaFullScreen = styled.div`
@@ -376,24 +378,4 @@ const CajaFullScreen = styled.div`
 `;
 const ImgFS = styled.img`
   width: 25px;
-`;
-const CajaElementoFull = styled.div`
-  background-color: red;
-  position: fixed;
-`;
-const ImgFull = styled.img`
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("/ruta-de-tu-imagen.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: -1;
-  &:fullscreen {
-    width: 100%;
-    height: 100%;
-  }
 `;

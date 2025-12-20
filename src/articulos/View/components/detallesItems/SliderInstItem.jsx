@@ -1,13 +1,20 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { Tema } from "../../config/theme";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowsLeftRight, faX } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
-import { BotonQuery } from "../../components/BotonQuery";
-import { BtnGeneralButton } from "../../components/BtnGeneralButton";
+import { Link, useNavigate } from "react-router-dom";
 
-export default function SliderInstItem({ hasSlider, setHasSlider }) {
+import { Tema } from "../../../../config/theme";
+import { BtnGeneralButton } from "../../../../components/BtnGeneralButton";
+import { BotonQuery } from "../../../../components/BotonQuery";
+
+export default function SliderInstItem({
+  hasSlider,
+  setHasSlider,
+  productSelect,
+}) {
+  console.log(productSelect);
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
@@ -30,6 +37,13 @@ export default function SliderInstItem({ hasSlider, setHasSlider }) {
     setHasSlider(false);
     setIzquierda(true);
   };
+  const navigate = useNavigate();
+  const verItem = () => {
+    window.open(
+      "/articulos/maestros/productos/" + productSelect.head.codigo,
+      "_blank"
+    );
+  };
   return (
     <Container
       className={`
@@ -38,10 +52,10 @@ export default function SliderInstItem({ hasSlider, setHasSlider }) {
       `}
     >
       <CajaTitulo>
+        <Titulo>{productSelect.head.descripcion}</Titulo>
         <Xcerrar className="iconMover" onClick={() => setIzquierda(!izquierda)}>
           <Icono icon={faArrowsLeftRight} />
         </Xcerrar>
-        <Titulo>Masilla Keraflor</Titulo>
         <Xcerrar onClick={() => cerrarSlider()}>
           <Icono icon={faX} />
         </Xcerrar>
@@ -50,16 +64,11 @@ export default function SliderInstItem({ hasSlider, setHasSlider }) {
       <CajaContenido>
         <WrapParrafo>
           <Subtitulo>Funcion:</Subtitulo>
-          <Parrafo>
-            Es utilizada para fraguar el Durock, primero en las juntas y luego
-            en toda la plancha, basicamente empañeta la planta.
-          </Parrafo>
+          <Parrafo>{productSelect.datosAux.funcion}</Parrafo>
         </WrapParrafo>
         <WrapParrafo>
           <Subtitulo>Cuando utilizar:</Subtitulo>
-          <Parrafo>
-            Es imprecindible empañetar la plancha para una correcta instalacion.
-          </Parrafo>
+          <Parrafo>{productSelect.datosAux.cuandoUtilizar}</Parrafo>
         </WrapParrafo>
         <WrapParrafo>
           <Subtitulo>Alternativas:</Subtitulo>
@@ -73,30 +82,22 @@ export default function SliderInstItem({ hasSlider, setHasSlider }) {
                 </Filas>
               </thead>
               <tbody>
-                <Filas className="body">
-                  <CeldasBody>{1}</CeldasBody>
-                  <CeldasBody>
-                    <Enlaces
-                      //   to={`/transportes/maestros/proyectos${encodeURIComponent(proy.numeroDoc)}`}
-                      target="_blank"
-                    >
-                      04079
-                    </Enlaces>
-                  </CeldasBody>
-                  <CeldasBody>Masilla Base coat Mapei</CeldasBody>
-                </Filas>
-                <Filas className="body">
-                  <CeldasBody>{2}</CeldasBody>
-                  <CeldasBody>
-                    <Enlaces
-                      //   to={`/transportes/maestros/proyectos${encodeURIComponent(proy.numeroDoc)}`}
-                      target="_blank"
-                    >
-                      04421
-                    </Enlaces>
-                  </CeldasBody>
-                  <CeldasBody>Pañete fino MDN 50 Lb</CeldasBody>
-                </Filas>
+                {productSelect.datosAux.altenativas.map((alt, index) => {
+                  return (
+                    <Filas className="body">
+                      <CeldasBody>{index + 1}</CeldasBody>
+                      <CeldasBody>
+                        <Enlaces
+                          to={`/articulos/maestros/productos/${encodeURIComponent(alt.codigo)}`}
+                          target="_blank"
+                        >
+                          {alt.codigo}
+                        </Enlaces>
+                      </CeldasBody>
+                      <CeldasBody>{alt.descripcion}</CeldasBody>
+                    </Filas>
+                  );
+                })}
               </tbody>
             </Tabla>
           </CajaTabla>
@@ -104,14 +105,13 @@ export default function SliderInstItem({ hasSlider, setHasSlider }) {
         <WrapParrafo>
           <Subtitulo>Observaciones:</Subtitulo>
           <Lista>
-            <Elemento>Es el producto mas recomendado para Durock</Elemento>
-            <Elemento>
-              Es el unico mortero capaz de recistir exterior en clima extremo.
-            </Elemento>
+            {productSelect.datosAux.observaciones.map((obs, index) => {
+              return <Elemento>{obs}</Elemento>;
+            })}
           </Lista>
         </WrapParrafo>
         <WrapParrafo>
-          <BtnSimple>Ver articulo</BtnSimple>
+          <BtnSimple onClick={() => verItem()}>Ver articulo</BtnSimple>
         </WrapParrafo>
       </CajaContenido>
     </Container>
@@ -145,6 +145,7 @@ const Container = styled.div`
 `;
 const CajaTitulo = styled.div`
   position: relative;
+  display: flex;
 `;
 const Titulo = styled.h2`
   width: 100%;
@@ -152,17 +153,19 @@ const Titulo = styled.h2`
   padding: 15px;
   color: ${Tema.primary.azulBrillante};
   border-bottom: 2px solid ${Tema.primary.grisNatural};
+  font-size: 20px;
+  font-weight: 400;
 `;
 const Xcerrar = styled.p`
-  position: absolute;
+  /* position: absolute;
   right: 0;
   top: 50%;
-  transform: translate(0, -50%);
-  font-size: 1.4rem;
+  transform: translate(0, -50%); */
+  font-size: 1rem;
   border: 1px solid ${Tema.primary.azulBrillante};
-  padding: 5px;
-  height: 100%;
-  width: 40px;
+  padding: 7px;
+  /* height: 100%; */
+  width: 25px;
   display: flex;
   justify-content: center;
   align-items: center;

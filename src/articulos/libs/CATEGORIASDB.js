@@ -164,3 +164,7 @@ export const CATEGORIASDB = [
       "Aquí se muestran los materiales translúcidos que comercializamos, principalmente Macrolux y Poliacryl.",
   },
 ];
+
+export const FindCat = (categoria) => {
+  return CATEGORIASDB.find((cat) => cat.code == categoria);
+};

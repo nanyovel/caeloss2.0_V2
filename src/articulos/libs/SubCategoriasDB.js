@@ -92,3 +92,6 @@ export const SubCategorias = [
   { code: "wpc", nombre: "WPC" },
   { code: "zocalos", nombre: "Zócalos" },
 ];
+export const FindSubCat = (subCategoria) => {
+  return SubCategorias.find((subCat) => subCat.code == subCategoria);
+};

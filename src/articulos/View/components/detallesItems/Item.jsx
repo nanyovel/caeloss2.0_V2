@@ -1,22 +1,20 @@
-import React from "react";
-import { Tema } from "../../config/theme";
 import styled from "styled-components";
+import { ClearTheme, Tema } from "../../../../config/theme";
 export default function Item({ producto }) {
   return (
-    <Container title={producto.descripcion}>
+    <Container title={producto.head.descripcion}>
       <CajaImg>
-        <Img src={producto.img} />
+        <Img src={producto.head.imagenDestacada} />
       </CajaImg>
       <CajaTitulo>
-        <Codigo>{producto.codigo}</Codigo>
-        <Descripcion>{producto.descripcion}</Descripcion>
+        <Codigo>{producto.head.codigo}</Codigo>
+        <Descripcion>{producto.head.descripcion}</Descripcion>
       </CajaTitulo>
     </Container>
   );
 }
 const Container = styled.div`
   width: 100%;
-  /* border: 1px solid red; */
   height: 100%;
   cursor: pointer;
   border: 1px solid transparent;
@@ -47,11 +45,15 @@ const CajaTitulo = styled.div`
 `;
 const Codigo = styled.h3`
   color: ${Tema.primary.grisNatural};
+  color: ${ClearTheme.neutral.blancoCalido};
+  font-weight: 400;
   width: 100%;
   text-align: center;
 `;
 const Descripcion = styled.h2`
   color: ${Tema.primary.azulBrillante};
+  color: ${ClearTheme.neutral.blancoCalido};
+  font-weight: 400;
   font-size: 1rem;
   width: 100%;
   text-align: center;

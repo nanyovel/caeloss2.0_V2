@@ -19,7 +19,8 @@ import {
 } from "../../../../components/JSXElements/GrupoDetalle";
 import { ClearTheme, Tema, Theme } from "../../../../config/theme";
 import { SubCategorias } from "../../../libs/SubCategoriasDB";
-import articulosDB2 from "../../../Database/itemsSubir2";
+
+// import articulosDB2 from "../../../Database/itemsSubir2";
 import ModalGeneral from "../../../../components/ModalGeneral";
 import {
   CajaTablaGroup,
@@ -28,6 +29,7 @@ import {
   FilasGroup,
   TablaGroup,
 } from "../../../../components/JSXElements/GrupoTabla";
+import { PRODUCT_FULL2 } from "../../../../components/corporativo/PRODUCT_FULL2.JS";
 
 export default function Cabecera({ categoriaMaster }) {
   // Trae las sub categorias y las marcas
@@ -36,14 +38,14 @@ export default function Cabecera({ categoriaMaster }) {
 
   useEffect(() => {
     if (categoriaMaster) {
-      const itemsCat = articulosDB2.filter((item) => {
-        if (item.head.categoria == categoriaMaster.code) {
+      const itemsCat = PRODUCT_FULL2.filter((item) => {
+        if (item.categoria == categoriaMaster.code) {
           return item;
         }
       });
       // 1-sub categorias
       const listaSubCategorias = itemsCat.map((item) => {
-        return item.head.subCategoria;
+        return item.subCategoria;
       });
       const sinRepetidosSubCat = [...new Set(listaSubCategorias)];
       const subCatParsed = SubCategorias.filter((subCat) => {
@@ -58,7 +60,7 @@ export default function Cabecera({ categoriaMaster }) {
       setSubCategoriasSelect(subCatParsed);
       // 2- marcas
       const listaMarcas = itemsCat.map((item) => {
-        return item.head.marca;
+        return item.marca;
       });
       const sinRepetidosMarcas = [...new Set(listaMarcas)];
       const marcasParsed = sinRepetidosMarcas.map((marca) => {
@@ -93,10 +95,10 @@ export default function Cabecera({ categoriaMaster }) {
     });
     //
     setSubCatSelected(catSelectAux);
-    const itemsSubCatAux = articulosDB2.filter((item) => {
+    const itemsSubCatAux = PRODUCT_FULL2.filter((item) => {
       if (
-        item.head.subCategoria == catSelectAux.code &&
-        item.head.categoria == categoriaMaster.code
+        item.subCategoria == catSelectAux.code &&
+        item.categoria == categoriaMaster.code
       ) {
         return item;
       }
@@ -127,10 +129,10 @@ export default function Cabecera({ categoriaMaster }) {
       };
     });
     setMarcaSelected(marcaAux);
-    const itemsMarcasAux = articulosDB2.filter((item) => {
+    const itemsMarcasAux = PRODUCT_FULL2.filter((item) => {
       if (
-        item.head.marca == marcaAux.nombre &&
-        item.head.categoria == categoriaMaster.code
+        item.marca == marcaAux.nombre &&
+        item.categoria == categoriaMaster.code
       ) {
         return item;
       }
@@ -244,15 +246,13 @@ ${Theme.config.modoClear ? "clearModern" : ""}
                       <CeldasBodyGroup>
                         <Enlace
                           target="_blank"
-                          to={
-                            "/articulos/maestros/productos/" + item.head.codigo
-                          }
+                          to={"/articulos/maestros/productos/" + item.codigo}
                         >
-                          {item.head.codigo}
+                          {item.codigo}
                         </Enlace>
                       </CeldasBodyGroup>
                       <CeldasBodyGroup className="startText">
-                        {item.head.descripcion}
+                        {item.descripcion}
                       </CeldasBodyGroup>
                     </FilasGroup>
                   );
@@ -284,15 +284,13 @@ ${Theme.config.modoClear ? "clearModern" : ""}
                       <CeldasBodyGroup>
                         <Enlace
                           target="_blank"
-                          to={
-                            "/articulos/maestros/productos/" + item.head.codigo
-                          }
+                          to={"/articulos/maestros/productos/" + item.codigo}
                         >
-                          {item.head.codigo}
+                          {item.codigo}
                         </Enlace>
                       </CeldasBodyGroup>
                       <CeldasBodyGroup className="startText">
-                        {item.head.descripcion}
+                        {item.descripcion}
                       </CeldasBodyGroup>
                     </FilasGroup>
                   );

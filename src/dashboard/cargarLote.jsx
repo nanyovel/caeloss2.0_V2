@@ -8,12 +8,13 @@ import db from "../firebase/firebaseConfig";
  */
 export async function cargarLote(dataArray, collectionName) {
   console.log("subiendo");
+  console.log(dataArray);
   // return; // Desactivado temporalmente
   const chunkSize = 500; // Límite por lote
   for (let i = 0; i < dataArray.length; i += chunkSize) {
     const batch = writeBatch(db);
     const chunk = dataArray.slice(i, i + chunkSize);
-
+    console.log(chunk);
     chunk.forEach((item) => {
       const newDocRef = doc(collection(db, collectionName)); // genera ID automático
       batch.set(newDocRef, item);

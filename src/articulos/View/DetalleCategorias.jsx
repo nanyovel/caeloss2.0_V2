@@ -4,10 +4,12 @@ import Cabecera from "./components/detallesCategorias/Cabecera";
 import { useParams } from "react-router-dom";
 import { CATEGORIASDB } from "../libs/CATEGORIASDB";
 import MenuPestannias from "../../components/MenuPestannias";
-import articulosDB2 from "../Database/itemsSubir2";
+// import articulosDB2 from "../Database/itemsSubir2";
+
 import ListaItems from "./components/detallesCategorias/ListaItems";
 import ListaConjuntos from "./components/detallesCategorias/ListaConjuntos";
 import ListaDocumentos from "./components/detallesCategorias/ListaDocumentos";
+import { PRODUCT_FULL2 } from "../../components/corporativo/PRODUCT_FULL2.JS";
 
 export default function DetalleCategorias() {
   const location = useParams();
@@ -43,12 +45,12 @@ export default function DetalleCategorias() {
 
   useEffect(() => {
     if (categoriaMaster) {
-      const itemsThisCategory = articulosDB2.filter(
-        (item) => item.head.categoria == categoriaMaster.code
+      const itemsThisCategory = PRODUCT_FULL2.filter(
+        (item) => item.categoria == categoriaMaster.code
       );
       setItemsLista(itemsThisCategory);
     }
-  }, [articulosDB2, categoriaMaster]);
+  }, [PRODUCT_FULL2, categoriaMaster]);
   return (
     categoriaMaster && (
       <Container>

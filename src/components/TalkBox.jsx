@@ -9,14 +9,10 @@ export default function TalkBox({ talk, userMaster }) {
   return (
     <CajaResena>
       <CajaAvatar>
-        <Enlaces to={"/perfiles/" + talk.usuario.userName}>
+        <Enlaces to={"/perfiles/" + talk.user}>
           <Avatar
             className={talk.avatar ? "" : "sinFoto"}
-            src={
-              talk.usuario.urlFotoPerfil
-                ? talk.usuario.urlFotoPerfil
-                : avatarMale
-            }
+            src={talk.avatar ? talk.avatar : avatarMale}
           />
         </Enlaces>
       </CajaAvatar>

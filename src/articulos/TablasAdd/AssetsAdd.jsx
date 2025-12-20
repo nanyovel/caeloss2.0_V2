@@ -7,8 +7,10 @@ import { collection, doc, writeBatch } from "firebase/firestore";
 import db from "../../firebase/firebaseConfig";
 
 import { ES6AFormat } from "../../libs/FechaFormat";
-import { itemsInicialSap } from "../Database/itemsSubir2";
+// import { itemsInicialSap } from "../Database/itemsSubir2";
+
 import { recursoSchema } from "../schemas/recursoSchema";
+import { PRODUCT_FULL2 } from "../../components/corporativo/PRODUCT_FULL2.JS";
 
 export default function AssetsAdd({ userMaster }) {
   const [arrayFotos, setArrayFotos] = useState([]);
@@ -32,7 +34,7 @@ export default function AssetsAdd({ userMaster }) {
       // 🟢1-Sube las imagenes
       let index = 0;
 
-      const codigosItems = itemsInicialSap.map((codigo) => {
+      const codigosItems = PRODUCT_FULL2.map((codigo) => {
         return codigo.codigo;
       });
 
@@ -51,7 +53,7 @@ export default function AssetsAdd({ userMaster }) {
           const resultadoSubida = await uploadBytes(storageRefFoto, foto);
           const codigoItemArchivo = resultadoSubida.metadata.name.slice(0, 5);
           const url = await getDownloadURL(storageRefFoto);
-          const itemFind = itemsInicialSap.find(
+          const itemFind = PRODUCT_FULL2.find(
             (item) => item.codigo == codigoItemArchivo
           );
 

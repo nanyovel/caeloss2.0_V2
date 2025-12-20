@@ -250,13 +250,16 @@ export const TablaAddBLOrden = ({
       setTimeout(() => setDispatchAlerta(false), 3000);
     }
 
-    const opcionFind = opcionTipoBL.find((opcion) => opcion.select);
-    if (ventanaJuntaMateriales == 0 && opcionFind.code == "normal") {
-      setMensajeAlerta("Primero fije un contenedor.");
-      setTipoAlerta("warning");
-      setDispatchAlerta(true);
-      setTimeout(() => setDispatchAlerta(false), 3000);
-      return "";
+    // console.log();
+    if (MODO == "addBL") {
+      const opcionFind = opcionTipoBL.find((opcion) => opcion.select);
+      if (ventanaJuntaMateriales == 0 && opcionFind.code == "normal") {
+        setMensajeAlerta("Primero fije un contenedor.");
+        setTipoAlerta("warning");
+        setDispatchAlerta(true);
+        setTimeout(() => setDispatchAlerta(false), 3000);
+        return "";
+      }
     }
 
     if (!hasSobrePasado && !hasAgregados) {

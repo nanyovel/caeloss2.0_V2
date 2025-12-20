@@ -12,7 +12,6 @@ export default function Controles({
   cancelarEdicion,
   modoEditar,
 }) {
-  console.log(productMaster);
   return (
     <Container>
       {modoEditar ? (

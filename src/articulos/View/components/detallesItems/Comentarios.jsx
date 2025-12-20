@@ -2,21 +2,20 @@ import styled from "styled-components";
 
 import { Tema } from "../../../../config/theme";
 import { BtnGeneralButton } from "../../../../components/BtnGeneralButton";
+import TalkBox from "../../../../components/TalkBox";
 
 export default function Comentarios({ productMaster, userMaster }) {
   const comentarios = productMaster.comentarios;
   return (
     <>
       <Container>
-        {/* {userMaster && (
-          <CajaComments>
-            {comentarios.map((comment, index) => {
-              return (
-                <TalkBox key={index} talk={comment} userMaster={userMaster} />
-              );
-            })}
-          </CajaComments>
-        )} */}
+        <CajaComments>
+          {comentarios.map((comment, index) => {
+            return (
+              <TalkBox key={index} talk={comment} userMaster={userMaster} />
+            );
+          })}
+        </CajaComments>
       </Container>
       <CajaNewComment>
         <CajaFotoPerfil>

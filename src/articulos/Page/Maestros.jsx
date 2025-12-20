@@ -6,14 +6,15 @@ import { InputSimpleEditable } from "../../components/InputGeneral";
 // import CorpListaArticulos from "../../components/corporativo/CorpListaArticulos";
 import { useNavigate } from "react-router-dom";
 import { ClearTheme, Tema } from "../../config/theme";
-import { itemsInicialSap } from "../Database/itemsSubir2";
+// import { itemsInicialSap } from "../Database/itemsSubir2";
+import { PRODUCT_FULL2 } from "../../components/corporativo/PRODUCT_FULL2.JS";
 
 export default function Maestros({ setOpcionUnicaSelect, userMaster }) {
   // ******************* Navegacion y seleccion de pantalla *******************
   useEffect(() => {
     setOpcionUnicaSelect(null);
   }, []);
-  const ListaArticulos = itemsInicialSap;
+  const ListaArticulos = PRODUCT_FULL2;
   const initialInput = {
     codigo: "",
     descripcion: "",

@@ -6,13 +6,11 @@ const dimensionesSchema = {
   grosor: 0,
 };
 
-const complementosSchema = {
+export const complementosSchema = {
   codigo: "",
-  descripcion: "",
-  img: "",
   funcion: "",
   cuandoUtilizar: "",
-  altenativas: [
+  alternativas: [
     // codigo
     // descripcion
   ],
@@ -35,64 +33,89 @@ const documentosSchema = {
   label: "",
   url: "",
 };
+export const datoTecnicoSchema = {
+  nombre: "",
+  label: "",
+  detalles: "",
+  // ***** TIPO *****
+  // row
+  // vertical
+  // table
+  tipo: "",
+};
+export const datoTecnicoSchemaTipoDimensiones = {
+  ...datoTecnicoSchema,
+  tipo: "dimensiones",
+  // ****** TIPO DIMENSIONES *****
+  // Solo para tipo dimensiones
+  // El tipo dimensiones es un tercer tipo es de la siguiente manera:
+  // -todos los productos lo poseen por default
+  // -tiene dos propiedades adicionales headTable y bodyTable
+  // -es algo fijo
+  headTable: ["U/M", "Ancho", "Largo", "Grosor"],
+  // Este es un array de array
+  // bodyTable: ["", "", "", ""],
+  bodyTable: [{ um: "", ancho: "", largo: "", grosor: "" }],
+};
+export const infoAdicionSchema = {
+  titulo: "",
+  parrafos: [""],
+};
 export const productoSchema = {
-  alternativas: [
-    // alternativas schema
-  ],
+  head: {
+    //
+    codigo: "",
+    descripcion: "",
+    unidadMedida: "",
+    proveedores: [],
+    imagenDestacada: "",
+    paisOrigen: [
+      // paisOrigen schema
+    ],
+    documentos: [
+      // schema
+    ],
+    enlaces: [],
+    //
+    //
+    //
+    //
 
-  camposPropios: [
-    // esto es para campos propios que solo posee este productos, es decir que no obedece el esquema general
-    // utilizar mismo schema de info adicional
+    categoria: "",
+    subCategoria: "",
+    marca: "",
+  },
+  textosDetalles: [
+    // strings para parrafos
   ],
   caracteristicas: [
     // strings para lista
   ],
+  usos: [
+    // strings
+  ],
+  datosTecnicos: [{ ...datoTecnicoSchemaTipoDimensiones }],
+  infoAdicional: [
+    // info adicional schema
+  ],
+  galeria: {
+    // imagenesVideosSchema
+    imagenes: [],
+    videos: [],
+  },
   comentarios: [
     // comment schema
   ],
   complementos: [
     // complementos schema
   ],
-  datosTecnicos: {
-    datos: [
-      // Datos de datos tecnicos schema
-    ],
-    dimensiones: [
-      // dimensiones schema
-    ],
-  },
-  galeria: {
-    // imagenesVideosSchema
-    imagenes: [],
-    videos: [],
-  },
-  infoAdicional: [
-    // info adicional schema
-  ],
-  textosDetalles: [
-    // strings para parrafos
-  ],
-  usos: [
-    // strings
+  alternativas: [
+    // alternativas schema
   ],
   //
-  head: {
-    imagenDestacada: "",
-    categoria: "",
-    subCategoria: "",
-    marca: "",
-    //
-    codigo: "",
-    descripcion: "",
-    documentos: [
-      // schema
-    ],
-    enlaces: [],
-    etiquetas: [],
-    paisOrigen: [
-      // paisOrigen schema
-    ],
-    proveedores: [],
-    unidadMedida: "",
-  },
+  //
+  //
+  //
+
+  //
 };

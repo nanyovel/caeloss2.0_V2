@@ -8,6 +8,7 @@ import {
   CeldaHeadGroup,
   CeldasBodyGroup,
   Enlace,
+  ImgCelda,
 } from "../../components/JSXElements/GrupoTabla";
 
 export default function TablaResultadoConjunto({ datos }) {
@@ -29,7 +30,7 @@ export default function TablaResultadoConjunto({ datos }) {
               <FilasGroup className="body" key={index}>
                 <CeldasBodyGroup>{index + 1}</CeldasBodyGroup>
                 <CeldasBodyGroup>
-                  <Img src={conjunto.imagenes[0].url} />
+                  <ImgCelda src={conjunto.imagenes[0].url} />
                 </CeldasBodyGroup>
                 <CeldasBodyGroup>
                   <Enlace
@@ -49,6 +50,3 @@ export default function TablaResultadoConjunto({ datos }) {
     </CajaTablaGroup>
   );
 }
-const Img = styled.img`
-  width: 200px;
-`;

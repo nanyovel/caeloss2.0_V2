@@ -788,12 +788,15 @@ export const DetalleBL = ({
       return "";
     }
     // Si el campo diasLibres esta vacio
-    if (blEditable.diasLibres == "") {
-      setMensajeAlerta("Favor colocar cantidad de dias libres.");
-      setTipoAlerta("warning");
-      setDispatchAlerta(true);
-      setTimeout(() => setDispatchAlerta(false), 3000);
-      return "";
+    console.log(blMaster);
+    if (blMaster.tipo === 0) {
+      if (blEditable.diasLibres == "") {
+        setMensajeAlerta("Favor colocar cantidad de dias libres.");
+        setTipoAlerta("warning");
+        setDispatchAlerta(true);
+        setTimeout(() => setDispatchAlerta(false), 3000);
+        return "";
+      }
     }
     // Si el campo puerto esta vacio
     if (blEditable.puerto == "") {

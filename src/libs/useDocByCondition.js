@@ -325,6 +325,8 @@ export const fetchDocsByConditionGetDocs = async (
 // https://firebase.google.com/docs/firestore/query-data/queries#in
 //  Sin ecuchador ni useEffect
 
+// ******************* LE PASAS UN ARRAY DE STRINGS Y COMPARAS CON UN STRING ***************
+// TRAERA TODOS LOS DOCUMENTOS QUE EN ESE STRING TENGA LOS VALORES QUE COLOCASTE EN TU ARRAY
 export const fetchDocsByIn = async (
   collectionName,
   setState,
@@ -335,15 +337,6 @@ export const fetchDocsByIn = async (
 
   const q = query(
     collection(db, collectionName),
-    // COmo funcion in / array-contains en firestore
-    // *****in*****
-    // le pasas un array de ordenes de compra y te traera esas ordenes de compra
-    // Basicamente entiendo que es lo opuesto de array-contains
-    // in le pasas un array para comparar contra un string del documento en la DB
-
-    // *****array-contains****
-    // array-contains le pasas un string para buscar dentro de un array de string en la db
-    // por otro lado existe array-contains-any que entiendo es para pasar un array y comprar con otro array en la db, a fin de que uno de los elementos coincidan
 
     where(campo, "in", arrayNumeros)
   );
@@ -364,6 +357,7 @@ export const fetchDocsByIn = async (
   return coleccion;
 };
 
+// ******************* LE PASAS UN STRING Y COMPARAS CON UN ARRAY DE STRING ***************
 export const fetchDocsByArrayContains = async (
   collectionName,
   setState,
@@ -374,17 +368,40 @@ export const fetchDocsByArrayContains = async (
 
   const q = query(
     collection(db, collectionName),
-    // COmo funcion in / array-contains en firestore
-    // *****in*****
-    // le pasas un array de string y te traera esos documentos
-    // Basicamente entiendo que es lo opuesto de array-contains
-    // in le pasas un array para comparar contra un string del documento en la DB
-
-    // *****array-contains****
-    // array-contains le pasas un string para buscar dentro de un array de string en la db
-    // por otro lado existe array-contains-any que entiendo es para pasar un array y comprar con otro array en la db, a fin de que uno de los elementos coincidan
 
     where(campo, "array-contains", stringBuscar)
+    // where("categorias", "array-contains", "planchas")
+  );
+
+  const consultaDB = await getDocs(q);
+  const coleccion = consultaDB.docs.map((doc) => ({
+    ...doc.data(),
+    id: doc.id,
+  }));
+  // Si tiene useState de react, entonces guardar ahi
+  // setState(coleccion);
+  if (setState) {
+    setState(coleccion);
+    return coleccion;
+  }
+  // Si no tiene useState siginifica que es en una variable de js
+
+  return coleccion;
+};
+
+// ******************* LE PASAS UN ARRAY DE STRINGS Y COMPARAS CON OTROS ARRAY DE STRING ***************
+export const fetchDocsByArrayContainsAny = async (
+  collectionName,
+  setState,
+  campo,
+  arrayDeString
+) => {
+  console.log("DB 😐😐😐😐😐" + collectionName);
+
+  const q = query(
+    collection(db, collectionName),
+
+    where(campo, "array-contains-any", arrayDeString)
     // where("categorias", "array-contains", "planchas")
   );
 

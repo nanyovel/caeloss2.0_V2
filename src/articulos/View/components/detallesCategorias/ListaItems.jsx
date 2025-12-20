@@ -17,13 +17,12 @@ export default function ListaItems({ itemsLista }) {
   useEffect(() => {
     const listaParsed = itemsLista.map((item) => {
       const subCat = SubCategorias.find(
-        (subCate) => subCate.code == item.head.subCategoria
+        (subCate) => subCate.code == item.subCategoria
       );
 
       return {
         ...item,
         head: {
-          ...item.head,
           nombreSucbCategoria: subCat?.nombre || "",
         },
       };
@@ -54,19 +53,19 @@ export default function ListaItems({ itemsLista }) {
                   <CeldasBodyGroup>
                     <Enlace
                       target="_blank"
-                      to={"/articulos/maestros/productos/" + item.head.codigo}
+                      to={"/articulos/maestros/productos/" + item.codigo}
                     >
-                      {item.head.codigo}
+                      {item.codigo}
                     </Enlace>
                   </CeldasBodyGroup>
                   <CeldasBodyGroup className="startText">
-                    {item.head.descripcion}
+                    {item.descripcion}
                   </CeldasBodyGroup>
                   <CeldasBodyGroup className="startText">
-                    {item.head.nombreSucbCategoria}
+                    {item.nombreSucbCategoria}
                   </CeldasBodyGroup>
                   <CeldasBodyGroup className="startText">
-                    {item.head.marca}
+                    {item.marca}
                   </CeldasBodyGroup>
                 </FilasGroup>
               );

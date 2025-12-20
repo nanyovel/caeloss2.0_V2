@@ -111,7 +111,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `plafones`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `01145`,
@@ -786,7 +786,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `01332`,
@@ -795,7 +795,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `plafones`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `02004`,
@@ -1533,7 +1533,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `planchas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `03159`,
@@ -1596,7 +1596,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `perfiles`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `03179`,
@@ -1632,7 +1632,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `masillasMezclas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `03190`,
@@ -1641,7 +1641,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `tornillosClavos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `03196`,
@@ -1650,7 +1650,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `tornillosClavos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `03205`,
@@ -1659,7 +1659,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `planchas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `03215`,
@@ -1668,7 +1668,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `tornillosClavos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `03217`,
@@ -1677,7 +1677,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `tornillosClavos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `03225`,
@@ -1722,7 +1722,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `revestimientos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `03244`,
@@ -2424,7 +2424,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `masillasMezclas`,
     subCategoria: `estucos`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `04288`,
@@ -2478,7 +2478,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `masillasMezclas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `04324`,
@@ -2523,7 +2523,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `masillasMezclas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `04345`,
@@ -2586,7 +2586,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `tornillosClavos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `04379`,
@@ -2604,7 +2604,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `perfiles`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `04387`,
@@ -2748,7 +2748,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `perfiles`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `04425`,
@@ -2757,7 +2757,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `perfiles`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `04426`,
@@ -2775,7 +2775,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `04434`,
@@ -2784,7 +2784,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `04436`,
@@ -2793,7 +2793,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `masillasMezclas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `04437`,
@@ -2802,7 +2802,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `aislantes`,
     subCategoria: `rollosAluminizados`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `04443`,
@@ -2811,7 +2811,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `perfiles`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `04444`,
@@ -2820,7 +2820,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `masillasMezclas`,
     subCategoria: `estucos`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `04445`,
@@ -2829,7 +2829,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `masillasMezclas`,
     subCategoria: `estucos`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `04448`,
@@ -2838,7 +2838,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `masillasMezclas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `04449`,
@@ -2847,7 +2847,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `perfiles`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `05006`,
@@ -3126,7 +3126,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `06010`,
@@ -3135,7 +3135,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `06011`,
@@ -3162,7 +3162,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `06017`,
@@ -3216,7 +3216,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `06032`,
@@ -3234,7 +3234,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `06037`,
@@ -3252,7 +3252,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `06062`,
@@ -3306,7 +3306,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `06072`,
@@ -3333,7 +3333,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `06078`,
@@ -3621,7 +3621,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `baños`,
     subCategoria: `fenolico`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `07163`,
@@ -3648,7 +3648,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `baños`,
     subCategoria: `fenolico`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `07173`,
@@ -3657,7 +3657,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `baños`,
     subCategoria: `fenolico`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `07174`,
@@ -3666,7 +3666,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `baños`,
     subCategoria: `fenolico`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `07175`,
@@ -3684,7 +3684,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `baños`,
     subCategoria: `fenolico`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `07179`,
@@ -3693,7 +3693,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `baños`,
     subCategoria: `fenolico`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `07181`,
@@ -3702,7 +3702,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `baños`,
     subCategoria: `fenolico`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `07188`,
@@ -3720,7 +3720,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `baños`,
     subCategoria: `fenolico`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `07191`,
@@ -3756,7 +3756,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `baños`,
     subCategoria: `fenolico`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `07208`,
@@ -3783,7 +3783,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `baños`,
     subCategoria: `fenolico`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `07211`,
@@ -3846,7 +3846,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `baños`,
     subCategoria: `fenolico`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `07233`,
@@ -4008,7 +4008,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `tornillosClavos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `08058`,
@@ -4017,7 +4017,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `tornillosClavos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `08059`,
@@ -4026,7 +4026,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `tornillosClavos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `08061`,
@@ -4035,7 +4035,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `tornillosClavos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `08062`,
@@ -4044,7 +4044,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `tornillosClavos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `08064`,
@@ -4053,7 +4053,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `tornillosClavos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `08066`,
@@ -4062,7 +4062,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `tornillosClavos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `08067`,
@@ -4071,7 +4071,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `tornillosClavos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `08068`,
@@ -4080,7 +4080,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `tornillosClavos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `09001`,
@@ -4836,7 +4836,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `pisosGramas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `09464`,
@@ -4980,7 +4980,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `tornillosClavos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `09494`,
@@ -5178,7 +5178,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `09535`,
@@ -5187,7 +5187,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `09536`,
@@ -5196,7 +5196,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `09537`,
@@ -5205,7 +5205,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `09538`,
@@ -5214,7 +5214,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `09539`,
@@ -5223,7 +5223,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `09540`,
@@ -5232,7 +5232,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `09541`,
@@ -5241,7 +5241,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `09542`,
@@ -5250,7 +5250,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `09543`,
@@ -5259,7 +5259,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `09544`,
@@ -5268,7 +5268,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `09545`,
@@ -5277,7 +5277,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `09548`,
@@ -5286,7 +5286,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `moldurasPisos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `09560`,
@@ -5295,7 +5295,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `perfiles`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `10096`,
@@ -5376,7 +5376,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `silicones`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `12102`,
@@ -5385,7 +5385,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `silicones`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `12103`,
@@ -5403,7 +5403,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `12143`,
@@ -5439,7 +5439,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `12155`,
@@ -5448,7 +5448,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `13070`,
@@ -5493,7 +5493,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `tornillosClavos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14034`,
@@ -5583,7 +5583,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14420`,
@@ -5610,7 +5610,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14430`,
@@ -5619,7 +5619,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14431`,
@@ -5628,7 +5628,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14432`,
@@ -5637,7 +5637,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14433`,
@@ -5646,7 +5646,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14434`,
@@ -5655,7 +5655,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14435`,
@@ -5664,7 +5664,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14436`,
@@ -5673,7 +5673,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14438`,
@@ -5682,7 +5682,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14439`,
@@ -5691,7 +5691,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14489`,
@@ -5799,7 +5799,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14883`,
@@ -5808,7 +5808,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14884`,
@@ -5817,7 +5817,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14885`,
@@ -5826,7 +5826,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14887`,
@@ -5835,7 +5835,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14888`,
@@ -5862,7 +5862,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14891`,
@@ -5871,7 +5871,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14919`,
@@ -5916,7 +5916,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14954`,
@@ -5925,7 +5925,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14955`,
@@ -5934,7 +5934,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14956`,
@@ -5943,7 +5943,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14957`,
@@ -5952,7 +5952,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14958`,
@@ -5961,7 +5961,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `14993`,
@@ -5970,7 +5970,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `puertas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `15001`,
@@ -6258,7 +6258,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `traslucidas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `15113`,
@@ -6519,7 +6519,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `traslucidas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `15246`,
@@ -6528,7 +6528,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `perfiles`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `15249`,
@@ -6573,7 +6573,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `traslucidas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `15269`,
@@ -6582,7 +6582,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `perfiles`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `15301`,
@@ -6798,7 +6798,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16275`,
@@ -6807,7 +6807,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16277`,
@@ -6816,7 +6816,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16314`,
@@ -6825,7 +6825,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16357`,
@@ -6834,7 +6834,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16384`,
@@ -7050,7 +7050,7 @@ export const PRODUCT_FULL2 = [
     proveedor: `Ningbo Shengyi Importacion y Exportacion CO, LTD`,
     categoria: `traslucidas`,
     subCategoria: `tipoAluzinc`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16625`,
@@ -7059,7 +7059,7 @@ export const PRODUCT_FULL2 = [
     proveedor: `Ningbo Shengyi Importacion y Exportacion CO, LTD`,
     categoria: `traslucidas`,
     subCategoria: `tipoAluzinc`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16626`,
@@ -7068,7 +7068,7 @@ export const PRODUCT_FULL2 = [
     proveedor: `Ningbo Shengyi Importacion y Exportacion CO, LTD`,
     categoria: `traslucidas`,
     subCategoria: `tipoAluzinc`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16633`,
@@ -7086,7 +7086,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16640`,
@@ -7131,7 +7131,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16653`,
@@ -7140,7 +7140,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16654`,
@@ -7149,7 +7149,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16676`,
@@ -7158,7 +7158,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16683`,
@@ -7167,7 +7167,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16685`,
@@ -7194,7 +7194,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16689`,
@@ -7203,7 +7203,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16691`,
@@ -7248,7 +7248,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16698`,
@@ -7257,7 +7257,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16699`,
@@ -7266,7 +7266,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16700`,
@@ -7275,7 +7275,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16703`,
@@ -7284,7 +7284,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16704`,
@@ -7293,7 +7293,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16705`,
@@ -7302,7 +7302,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16708`,
@@ -7311,7 +7311,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16709`,
@@ -7320,7 +7320,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16712`,
@@ -7338,7 +7338,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16717`,
@@ -7347,7 +7347,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16720`,
@@ -7356,7 +7356,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16723`,
@@ -7365,7 +7365,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16725`,
@@ -7374,7 +7374,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16726`,
@@ -7383,7 +7383,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16728`,
@@ -7401,7 +7401,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16732`,
@@ -7410,7 +7410,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16735`,
@@ -7419,7 +7419,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16736`,
@@ -7428,7 +7428,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16738`,
@@ -7437,7 +7437,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16739`,
@@ -7446,7 +7446,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16742`,
@@ -7455,7 +7455,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16744`,
@@ -7464,7 +7464,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16745`,
@@ -7473,7 +7473,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16746`,
@@ -7482,7 +7482,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16753`,
@@ -7491,7 +7491,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16760`,
@@ -7500,7 +7500,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16761`,
@@ -7509,7 +7509,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16764`,
@@ -7518,7 +7518,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16767`,
@@ -7527,7 +7527,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16768`,
@@ -7536,7 +7536,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16769`,
@@ -7545,7 +7545,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16770`,
@@ -7554,7 +7554,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16771`,
@@ -7563,7 +7563,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16772`,
@@ -7572,7 +7572,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16778`,
@@ -7581,7 +7581,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `16783`,
@@ -7590,7 +7590,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17003`,
@@ -7626,7 +7626,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17178`,
@@ -7680,7 +7680,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17191`,
@@ -7689,7 +7689,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17195`,
@@ -7779,7 +7779,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `perfiles`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17293`,
@@ -7869,7 +7869,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17375`,
@@ -8022,7 +8022,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17416`,
@@ -8049,7 +8049,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17431`,
@@ -8094,7 +8094,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17452`,
@@ -8139,7 +8139,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17477`,
@@ -8319,7 +8319,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `louver`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17559`,
@@ -8328,7 +8328,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `louver`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17568`,
@@ -8445,7 +8445,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `louver`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17585`,
@@ -8454,7 +8454,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `louver`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17586`,
@@ -8463,7 +8463,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `louver`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17587`,
@@ -8481,7 +8481,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `revestimientos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17596`,
@@ -8607,7 +8607,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17623`,
@@ -8616,7 +8616,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17624`,
@@ -8625,7 +8625,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17625`,
@@ -8634,7 +8634,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17628`,
@@ -8643,7 +8643,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17629`,
@@ -8652,7 +8652,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17633`,
@@ -8661,7 +8661,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17634`,
@@ -8670,7 +8670,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17643`,
@@ -8679,7 +8679,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `pisosGramas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17644`,
@@ -8688,7 +8688,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `pisosGramas`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17645`,
@@ -8697,7 +8697,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17646`,
@@ -8706,7 +8706,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17647`,
@@ -8715,7 +8715,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17648`,
@@ -8724,7 +8724,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `revestimientos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17649`,
@@ -8733,7 +8733,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `revestimientos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17650`,
@@ -8742,7 +8742,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `revestimientos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17651`,
@@ -8751,7 +8751,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17655`,
@@ -8760,7 +8760,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17656`,
@@ -8769,7 +8769,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17657`,
@@ -8778,7 +8778,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17658`,
@@ -8787,7 +8787,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17659`,
@@ -8796,7 +8796,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17660`,
@@ -8805,7 +8805,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17661`,
@@ -8814,7 +8814,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17662`,
@@ -8823,7 +8823,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17663`,
@@ -8832,7 +8832,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17664`,
@@ -8841,7 +8841,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `17672`,
@@ -8850,7 +8850,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `18000`,
@@ -8868,7 +8868,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `18015`,
@@ -8877,7 +8877,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `18018`,
@@ -8886,7 +8886,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `18023`,
@@ -8904,7 +8904,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `18025`,
@@ -8922,7 +8922,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `18027`,
@@ -8931,7 +8931,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `18028`,
@@ -8940,7 +8940,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `18273`,
@@ -9039,7 +9039,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `19940`,
@@ -9048,7 +9048,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `19941`,
@@ -9057,7 +9057,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `19943`,
@@ -9075,7 +9075,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `19945`,
@@ -9084,7 +9084,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `19947`,
@@ -9102,7 +9102,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `19955`,
@@ -9111,7 +9111,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `19956`,
@@ -9120,7 +9120,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `19957`,
@@ -9147,7 +9147,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `19963`,
@@ -9156,7 +9156,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `19964`,
@@ -9165,7 +9165,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `19966`,
@@ -9183,7 +9183,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `19969`,
@@ -9192,7 +9192,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `19971`,
@@ -9246,7 +9246,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `cocinas`,
     subCategoria: `lavamanos`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `20040`,
@@ -9336,7 +9336,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `perfiles`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `20191`,
@@ -9417,7 +9417,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22005`,
@@ -9534,7 +9534,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22096`,
@@ -9597,7 +9597,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22110`,
@@ -9786,7 +9786,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22147`,
@@ -9795,7 +9795,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22148`,
@@ -9804,7 +9804,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22149`,
@@ -9813,7 +9813,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22150`,
@@ -9822,7 +9822,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22151`,
@@ -9831,7 +9831,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22152`,
@@ -9840,7 +9840,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22153`,
@@ -9849,7 +9849,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22154`,
@@ -9858,7 +9858,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22155`,
@@ -9867,7 +9867,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22156`,
@@ -9876,7 +9876,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22157`,
@@ -9885,7 +9885,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22158`,
@@ -9894,7 +9894,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22159`,
@@ -9903,7 +9903,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22160`,
@@ -9912,7 +9912,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22161`,
@@ -9921,7 +9921,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22162`,
@@ -9930,7 +9930,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22163`,
@@ -9939,7 +9939,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22172`,
@@ -9948,7 +9948,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `porcelanato`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22174`,
@@ -9957,7 +9957,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `22194`,
@@ -9966,7 +9966,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `23066`,
@@ -9993,7 +9993,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `airesAcondicionado`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `23081`,
@@ -10002,7 +10002,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `airesAcondicionado`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `23083`,
@@ -10011,7 +10011,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `24039`,
@@ -10029,7 +10029,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `24081`,
@@ -10038,7 +10038,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `revestimientos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `24083`,
@@ -10092,7 +10092,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `25006`,
@@ -10398,7 +10398,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `25059`,
@@ -10425,7 +10425,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `25069`,
@@ -10713,7 +10713,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `27028`,
@@ -10776,7 +10776,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `cocinas`,
     subCategoria: `fregaderos`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `27042`,
@@ -11064,7 +11064,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `27099`,
@@ -11073,7 +11073,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `27101`,
@@ -11082,7 +11082,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `27102`,
@@ -11091,7 +11091,7 @@ export const PRODUCT_FULL2 = [
     proveedor: ``,
     categoria: `miscelaneos`,
     subCategoria: `default`,
-    marca: ``,
+    marca: `Default`,
   },
   {
     codigo: `28001`,

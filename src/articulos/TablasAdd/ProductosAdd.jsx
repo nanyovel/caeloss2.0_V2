@@ -6,7 +6,6 @@ import { PRODUCT_FULL2 } from "../../components/corporativo/PRODUCT_FULL2.JS";
 
 export default function ProductosAdd() {
   const subirData = () => {
-    return;
     const productosParsed = PRODUCT_FULL2.map((prod) => {
       return {
         ...productoSchema,
@@ -28,7 +27,7 @@ export default function ProductosAdd() {
   return (
     <ContainerMaster>
       <CajaSubir>
-        {/* <BtnNormal onClick={() => subirData()}>Subir data!</BtnNormal> */}
+        <BtnNormal onClick={() => subirData()}>Subir data!</BtnNormal>
       </CajaSubir>
     </ContainerMaster>
   );

@@ -1,72 +1,95 @@
 import React from "react";
 import styled from "styled-components";
-import { Tema } from "../../config/theme";
+import { Tema, Theme } from "../../../../config/theme";
+import {
+  CajaTablaGroup,
+  CeldaHeadGroup,
+  CeldasBodyGroup,
+  FilasGroup,
+  ImgCelda,
+  TablaGroup,
+} from "../../../../components/JSXElements/GrupoTabla";
+import { BtnGeneralButton } from "../../../../components/BtnGeneralButton";
 
-export default function Alternativas() {
-  const alternativasDB = [
-    {
-      codigo: "03006",
-      descripcion: `Plancha de Permabase 4' x 8' - 1/2" (500077)`,
-      img: "https://i.ibb.co/p5PfmR9/Whats-App-Image-2025-02-13-at-11-08-05-AM.jpg",
-      obs: `La plancha Permabase se considera una de las mejores
-                  alternativas al Durock, es un panel de cemento aligerado con
-                  perlita de poliestireno en medio de una malla de fibra de
-                  vidrio.`,
-    },
-    {
-      codigo: "22124",
-      descripcion: `Plycem Microconcreto 4´x 8´x 12mm (1323827)`,
-      img: "https://i.ibb.co/7dTsYjjw/Whats-App-Image-2025-02-13-at-1-52-29-PM.jpg",
-      obs: `Es una buena alternativa al Durock, es un panel de cemento cubierto con una malla de fibra de vidrio.`,
-    },
-    {
-      codigo: "03102",
-      descripcion: `Plancha de Securock 4' x 8' - 1/2" (ME12GMSH08)`,
-      img: "https://i.ibb.co/b5XGB9BF/Whats-App-Image-2025-02-13-at-11-08-00-AM.jpg",
-      obs: `Es una opcion mas economica, menos resistente pero altamente funcional.`,
-    },
-    {
-      codigo: "03071",
-      descripcion: `Plancha de DensGlass 4' x 8' - 1/2" (855254)`,
-      img: "https://i.ibb.co/wFZwLNmc/Whats-App-Image-2025-02-13-at-11-08-02-AM-2.jpg",
-      obs: `Es un panel con nucleo de yeso resistente a humedad y covertura de fibra de vidrio ideal para fachadas.`,
-    },
-  ];
+export default function Alternativas({
+  productMaster,
+  productEditable,
+  modoEditar,
+}) {
   return (
     <Container>
-      {alternativasDB.map((item, index) => {
-        return (
-          <CajaArticulo key={index}>
-            <CajaFoto>
-              <Img src={item.img} />
-            </CajaFoto>
-            <CajaTitulo>
-              <CajaInternaArticulo>
-                <CajaDetalles>
-                  <CajitaDetalle className="vertical">
-                    <TituloDetalle className="vertical">SKU:</TituloDetalle>
-                    <DetalleTexto className="vertical">
-                      {item.codigo}
-                    </DetalleTexto>
-                  </CajitaDetalle>
-                  <CajitaDetalle className="vertical">
-                    <TituloDetalle className="vertical">
-                      Descripcion:
-                    </TituloDetalle>
-                    <DetalleTexto className="vertical">
-                      {item.descripcion}
-                    </DetalleTexto>
-                  </CajitaDetalle>
-                  <CajitaDetalle className="vertical">
-                    <TituloDetalle className="vertical">Obs:</TituloDetalle>
-                    <DetalleTexto className="vertical">{item.obs}</DetalleTexto>
-                  </CajitaDetalle>
-                </CajaDetalles>
-              </CajaInternaArticulo>
-            </CajaTitulo>
-          </CajaArticulo>
-        );
-      })}
+      {modoEditar ? (
+        <WrapEdit>
+          <CajaTablaGroup>
+            <TablaGroup>
+              <thead>
+                <FilasGroup className="cabeza">
+                  <CeldaHeadGroup>N°</CeldaHeadGroup>
+                  <CeldaHeadGroup>Imagen</CeldaHeadGroup>
+                  <CeldaHeadGroup>Codigo</CeldaHeadGroup>
+                  <CeldaHeadGroup>Descripcion</CeldaHeadGroup>
+                  <CeldaHeadGroup>Observaciones</CeldaHeadGroup>
+                </FilasGroup>
+              </thead>
+              <tbody>
+                {productEditable.alternativas.map((item, index) => {
+                  return (
+                    <FilasGroup key={index} className="body">
+                      <CeldasBodyGroup>{index + 1}</CeldasBodyGroup>
+                      <CeldasBodyGroup>
+                        <ImgCelda src={item.img} />
+                      </CeldasBodyGroup>
+                      <CeldasBodyGroup>{item.codigo}</CeldasBodyGroup>
+                      <CeldasBodyGroup>{item.descripcion}</CeldasBodyGroup>
+                      <CeldasBodyGroup>{item.obs}</CeldasBodyGroup>
+                    </FilasGroup>
+                  );
+                })}
+              </tbody>
+            </TablaGroup>
+          </CajaTablaGroup>
+          <CajaBtn>
+            <BtnSimple>-</BtnSimple>
+            <BtnSimple>+</BtnSimple>
+          </CajaBtn>{" "}
+        </WrapEdit>
+      ) : (
+        productMaster.alternativas.map((item, index) => {
+          return (
+            <CajaArticulo key={index}>
+              <CajaFoto>
+                <Img src={item.img} />
+              </CajaFoto>
+              <CajaTitulo>
+                <CajaInternaArticulo>
+                  <CajaDetalles>
+                    <CajitaDetalle className="vertical">
+                      <TituloDetalle className="vertical">SKU:</TituloDetalle>
+                      <DetalleTexto className="vertical">
+                        {item.codigo}
+                      </DetalleTexto>
+                    </CajitaDetalle>
+                    <CajitaDetalle className="vertical">
+                      <TituloDetalle className="vertical">
+                        Descripcion:
+                      </TituloDetalle>
+                      <DetalleTexto className="vertical">
+                        {item.descripcion}
+                      </DetalleTexto>
+                    </CajitaDetalle>
+                    <CajitaDetalle className="vertical">
+                      <TituloDetalle className="vertical">Obs:</TituloDetalle>
+                      <DetalleTexto className="vertical">
+                        {item.obs}
+                      </DetalleTexto>
+                    </CajitaDetalle>
+                  </CajaDetalles>
+                </CajaInternaArticulo>
+              </CajaTitulo>
+            </CajaArticulo>
+          );
+        })
+      )}
     </Container>
   );
 }
@@ -80,6 +103,8 @@ const Container = styled.div`
   gap: 20px;
   padding: 15px;
   overflow-y: scroll;
+  border-radius: 8px;
+  box-shadow: ${Theme.config.sombra};
 
   *,
   *:before,
@@ -216,3 +241,9 @@ const Img = styled.img`
   height: 100%;
   object-fit: contain;
 `;
+const WrapEdit = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+const CajaBtn = styled.div``;
+const BtnSimple = styled(BtnGeneralButton)``;
