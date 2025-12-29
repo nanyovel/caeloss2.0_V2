@@ -25,6 +25,7 @@ import MenuPestannias from "../../components/MenuPestannias.jsx";
 import FuncionUpWayDate from "../components/FuncionUpWayDate.jsx";
 import { generarArrayDestinos } from "./PartsEnPuerto/generarArrayDestinos.js";
 import { ElementoPrivilegiado } from "../../context/ElementoPrivilegiado.jsx";
+import { BotonQuery } from "../../components/BotonQuery.jsx";
 
 export const TablaCiclo03EnPuerto = ({ userMaster }) => {
   // // ******************** RECURSOS GENERALES ******************** //
@@ -533,43 +534,28 @@ export const TablaCiclo03EnPuerto = ({ userMaster }) => {
     try {
       setIsLoading(true);
       const batch = writeBatch(db);
-      // ******* FURGONES ********
-      const furgonesPlanificados = listaFurgonesEditable.filter((furgon) => {
-        if (furgon.planificado) {
-          return furgon;
-        }
-      });
-      console.log(furgonesPlanificados);
-      if (furgonesPlanificados.length === 0) {
-        const furgonesNormal = listaFurgonesEditable.filter(
-          (furgon) => !furgon.isCargaSuelta
-        );
-        for (const furgon of furgonesNormal) {
-          const furgonActualizar = doc(db, "furgones", furgon.id);
-          batch.update(furgonActualizar, {
-            planificado: false,
-            fechaRecepProg: "",
-          });
-        }
-      } else {
-        const furgonesNormal = furgonesPlanificados.filter(
-          (furgon) => !furgon.isCargaSuelta
-        );
 
-        for (const furgon of furgonesNormal) {
-          const furgonActualizar = doc(db, "furgones", furgon.id);
-          batch.update(furgonActualizar, {
-            fechas: furgon.fechas,
-            destino: furgon.destino,
-            fechaRecepProg: furgon.fechaRecepProg,
-            // standBy: furgon.standBy,
-            planificado: furgon.planificado,
-            status: 2,
-          });
-        }
+      // *************** FURGONES ****************
+      const listaEditableAux = listaFurgonesEditable;
+
+      const furgonesNormal = listaEditableAux.filter(
+        (furgon) => !furgon.isCargaSuelta
+      );
+
+      for (const furgon of furgonesNormal) {
+        const furgonActualizar = doc(db, "furgones", furgon.id);
+        batch.update(furgonActualizar, {
+          fechas: furgon.fechas,
+          destino: furgon.destino,
+          fechaRecepProg: furgon.fechaRecepProg,
+          // standBy: furgon.standBy,
+          planificado: furgon.planificado,
+          status: 2,
+        });
       }
+
       // ************ CARGA SUELTA ************
-      const partidasCargaSuelta = furgonesPlanificados.filter(
+      const partidasCargaSuelta = listaEditableAux.filter(
         (furgon) => furgon.isCargaSuelta
       );
       const idsBlsCargaSueltaUp = partidasCargaSuelta.map(
@@ -598,7 +584,15 @@ export const TablaCiclo03EnPuerto = ({ userMaster }) => {
         });
       });
 
+      console.log("commit");
       await batch.commit();
+      const arrayPestaniaAux = arrayPestannias.map((opcion) => {
+        return {
+          ...opcion,
+          select: opcion.code === "programacion",
+        };
+      });
+      setArrayPestannias(arrayPestaniaAux);
       setIsLoading(false);
       setMensajeAlerta("Programacion guardada correctamente.");
       setTipoAlerta("success");
@@ -663,8 +657,7 @@ export const TablaCiclo03EnPuerto = ({ userMaster }) => {
       setListaFurgonesMaster(initialValueFurgones);
     }
   };
-  //
-  //
+
   const [hasAviso, setHasAviso] = useState(false);
   return (
     userMaster && (
@@ -672,6 +665,11 @@ export const TablaCiclo03EnPuerto = ({ userMaster }) => {
         <MenuPestannias
           arrayOpciones={arrayPestannias}
           handlePestannias={handlePestannias}
+        />
+        <BotonQuery
+          listaProgramacion={listaProgramacion}
+          listaFurgonesEditable={listaFurgonesEditable}
+          listaFurgonesMaster={listaFurgonesMaster}
         />
         <CabeceraListaAll>
           <EncabezadoTabla>
@@ -1072,12 +1070,12 @@ const HR = styled.hr``;
 
 const TituloDayStandBy = styled.h2`
   margin-left: 40px;
+  font-weight: 400;
   &.pasado {
     font-size: 0.9rem;
     color: ${Tema.secondary.azulOpaco};
     color: #cccccc;
     border-bottom: 1px solid black;
-    font-weight: 400;
   }
   &.tituloCabeza {
     display: inline-block;
