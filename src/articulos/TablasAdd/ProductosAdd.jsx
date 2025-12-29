@@ -6,6 +6,26 @@ import { PRODUCT_FULL2 } from "../../components/corporativo/PRODUCT_FULL2.JS";
 
 export default function ProductosAdd() {
   const subirData = () => {
+    return;
+    const productosParsed = PRODUCT_FULL2.map((prod) => {
+      return {
+        ...productoSchema,
+        head: {
+          ...productoSchema.head,
+          codigo: prod.codigo,
+          descripcion: prod.descripcion,
+          unidadMedida: prod.unidadMedida,
+          categoria: prod.categoria,
+          subCategoria: prod.subCategoria,
+          proveedores: [prod.proveedor],
+          marca: prod.marca,
+        },
+      };
+    });
+
+    cargarLote(productosParsed, "productos");
+  };
+  const upCaracteristicas = () => {
     const productosParsed = PRODUCT_FULL2.map((prod) => {
       return {
         ...productoSchema,
@@ -27,7 +47,12 @@ export default function ProductosAdd() {
   return (
     <ContainerMaster>
       <CajaSubir>
-        <BtnNormal onClick={() => subirData()}>Subir data!</BtnNormal>
+        {/* <BtnNormal onClick={() => subirData()}>Subir data!</BtnNormal> */}
+      </CajaSubir>
+      <CajaSubir>
+        <BtnNormal onClick={() => upCaracteristicas()}>
+          Up caracteristicas!
+        </BtnNormal>
       </CajaSubir>
     </ContainerMaster>
   );

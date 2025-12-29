@@ -1,7 +1,12 @@
+// Le pase el codigo a chatgpt para que me lo de sin faltas ortograficas, pero quise dejar este como el viejo por si las moscas
+// Le pase el codigo a chatgpt para que me lo de sin faltas ortograficas, pero quise dejar este como el viejo por si las moscas
+// Le pase el codigo a chatgpt para que me lo de sin faltas ortograficas, pero quise dejar este como el viejo por si las moscas
+// Le pase el codigo a chatgpt para que me lo de sin faltas ortograficas, pero quise dejar este como el viejo por si las moscas
+// Le pase el codigo a chatgpt para que me lo de sin faltas ortograficas, pero quise dejar este como el viejo por si las moscas
+
 import ImgJenni from "../../../public/img/avatares/jenifer1.png";
 import ImgKostia from "../../../public/img/avatares/kostia.png";
 import ImgKarla from "../../../public/img/avatares/karla.png";
-
 export const DataExample = {
   head: {
     codigo: "03019",
@@ -18,16 +23,16 @@ export const DataExample = {
         siglas: "US",
         label: "Estados Unidos",
       },
-      { siglas: "MX", label: "México" },
+      { siglas: "MX", label: "Mexico" },
     ],
     documentos: [
       {
         url: "https://www.usg.com/content/dam/USG_Marketing_Communications/mexico/product_promotional_materials/finished_assets/usg-tablacemento-durock-ficha-tecnica-mex-es.pdf",
-        label: "Ficha técnica",
+        label: "Ficha tecnica",
       },
       {
         url: "https://www.usg.com/content/dam/USG_Marketing_Communications/mexico/Catalog2019/InstructivoInstalacionUSGDurock/INSTRUCTIVO%20INSTALACION%20USG%20DUROCK%20NEXT%20GEN%20-D-2019gtCURVAS.pdf",
-        label: "Catálogo",
+        label: "Catalogo",
       },
       {
         url: "https://www.usg.com/content/dam/USG_Marketing_Communications/mexico/Catalog2019/InstructivoInstalacionUSGDurock/INSTRUCTIVO%20INSTALACION%20USG%20DUROCK%20NEXT%20GEN%20-D-2019gtCURVAS.pdf",
@@ -35,47 +40,39 @@ export const DataExample = {
       },
       {
         url: "https://www.usg.com/content/dam/USG_Marketing_Communications/mexico/Catalog2019/InstructivoInstalacionUSGDurock/INSTRUCTIVO%20INSTALACION%20USG%20DUROCK%20NEXT%20GEN%20-D-2019gtCURVAS.pdf",
-        label: "Instructivo de instalación",
+        label: "Instructivo de instalacion",
       },
     ],
     enlaces: [
       {
         url: "https://www.youtube.com/watch?v=GZ_9i0rw6y4",
-        label: "Cómo instalar Durock",
+        label: "Como instalar durock",
       },
       {
         url: "https://www.youtube.com/watch?v=w9AgD8SrDgQ",
-        label: "Proceso de fabricación",
+        label: "Proceso de fabricacion",
       },
     ],
     categoria: "planchas",
     subCategoria: "planchasDeInterior",
     marca: "USG",
   },
-
   textosDetalles: [
     "Es un tablero de cemento fabricado con cemento Portland en su núcleo, y laminado con una malla de fibra de vidrio polimerizada en ambas caras.",
 
     "Se puede instalar sobre bastidores metálicos con los postes espaciados a 40.6 cm máximo (16”), tanto en construcciones nuevas como en remodelaciones.",
 
-    "Es el producto ideal para instalar en muros, faldones y cielos interiores, sujetos a contacto directo con el agua o condiciones de humedad alta como baños, regaderas, cocinas o lavanderías. También se puede utilizar para elementos exteriores como cielos, fachadas, marquesinas, faldones, etc.",
+    "Es el producto ideal para instalar en muros, faldones y cielos interiores, sujetos a contacto directo con el agua o condiciones de humedad alta como baños, regaderas, cocinas o lavanderías. También se puede utilizar para elementos exteriores como cielos, fachadas, marquesinas, faldones, etc",
   ],
-  material: [
-    "Cemento Portland reforzado con fibra de vidrio, también llamado cement board o tablero de cemento.",
-    "Algunos modelos vienen con un borde reforzado (EdgeGuard™) que ayuda a que el panel no se deshaga ni se astille fácilmente en las esquinas.",
-  ],
-
   caracteristicas: [
-    "Excelente solución para áreas en contacto directo con agua.",
+    "Exelente solución para áreas en contacto directo con agua.",
     "Se puede usar en interiores y exteriores.",
     "Incombustible.",
     "Resistente al moho.",
     "No sufre deterioro, degradación, deformación, deslaminado, ni se desintegra al exponerlo al contacto directo con agua por tiempo prolongado.",
     "Presenta una de sus caras rugosa para la mejor aplicación de compuesto o adhesivo para losetas.",
     "Instalación rápida que acelera la productividad.",
-    "Diseñado para cargas positivas o negativas uniformes de hasta 293 kg/m2 (60 psf).",
   ],
-
   usos: [
     "Muros",
     "Se puede usar en interiores y exteriores",
@@ -86,7 +83,6 @@ export const DataExample = {
     "Cocinas industriales",
     "Cuartos de lavado",
   ],
-
   datosTecnicos: [
     {
       nombre: "rendimiento",
@@ -109,19 +105,19 @@ export const DataExample = {
     {
       nombre: "cantidadEmbalaje",
       label: "Embalaje de almacenamiento",
-      detalles: "30 unds / 40 unds",
+      detalles: "30unds / 40 unds",
       tipo: "row",
     },
     {
       nombre: "exterior",
-      label: "Resiste intemperie / exterior:",
-      detalles: "Sí",
+      label: "Resiste interperie / exterior:",
+      detalles: "Si",
       tipo: "row",
     },
     {
       nombre: "moho",
       label: "Resiste moho:",
-      detalles: "Sí",
+      detalles: "Si",
       tipo: "row",
     },
     {
@@ -134,19 +130,19 @@ export const DataExample = {
     {
       nombre: "incombustible",
       label: "Incombustible:",
-      detalles: "Aprobado (Método; Norma ASTM) ",
+      detalles: "Aprobado (Metodo; Norma ASTM) ",
       tipo: "row",
     },
     {
       nombre: "propagacionLlama",
       label: "Propagación de flama:",
-      detalles: "0 (Método utilizado; Norma ASTM)",
+      detalles: "0 (Metodo utilizado; Norma ASTM)",
       tipo: "row",
     },
     {
       nombre: "emisionHumo",
-      label: "Emisión de humo:",
-      detalles: "0 (Método; Norma ASTM)",
+      label: "Emision de humo:",
+      detalles: "0 (Metodo; Norma ASTM)",
       tipo: "row",
     },
     {
@@ -161,27 +157,25 @@ export const DataExample = {
       ],
     },
   ],
-
   infoAdicional: [
     {
-      titulo: "Garantía",
+      titulo: "Instalacion",
       parrafos: [
-        "En interior: Garantía limitada de hasta 30 años desde la fecha de instalación, siempre que se instale de acuerdo con las instrucciones del fabricante y normas de instalación adecuadas. Durante ese periodo el producto está garantizado contra defectos de material y fabricación, y que no se hinchará, ablandará, pudrirá o se desintegrará por humedad.",
-
-        "Exterior: Garantía limitada de 10 años para aplicaciones en muro o estructura exterior.",
-
-        "En ambos casos la garantía está condicionada a que el producto se instale y mantenga conforme a las instrucciones oficiales de USG y buenas prácticas de construcción.",
-        "Algunas fichas técnicas locales de USG (especialmente en español) pueden mencionar una garantía corta de 30 días contra defectos al momento de compra para ciertos accesorios o componentes relacionados (como compuestos o mallas), ¡pero eso no reemplaza la garantía estructural del tablero cuando se instala correctamente!",
+        "Los tableros de cemento se instalan sobre bastidores metálicos, tanto en muros como en sistemas de cielo raso.",
+        "Diseñado para cargas positivas o negativas uniformes de hasta 293 kg/m2 (60 psf).",
       ],
     },
   ],
-
   galeria: {
     imagenes: [
       {
         titulo: "Hermosa propiedad construida con Durock en Punta Cana",
         url: "https://i.ibb.co/nssYFpyP/fachadas-de-casas-de-un-piso-con-pisos-para-casas-modernas-decirte-que-estos-modelos-de-fachadas-e-f.jpg",
       },
+      // {
+      //   titulo: "Fachada en Piantini",
+      //   url: "https://i.ibb.co/dwz1SwRG/DUROCK-BLOCK-CD.jpg",
+      // },
       {
         titulo: "Material almacenado",
         url: "https://i.ibb.co/zTN56GtP/Whats-App-Image-2025-02-08-at-11-30-00-AM-4.jpg",
@@ -200,14 +194,15 @@ export const DataExample = {
       },
       {
         titulo: "Diseñado por Karla Gattas",
-        url: "https://i.ibb.co/ZRRNBYQf/6ae37838795e3d635b3f62b3bd4770c1.jpg",
+        url: "https://i.ibb.co/ZRrNBYQf/6ae37838795e3d635b3f62b3bd4770c1.jpg",
       },
       {
-        titulo: "Durante la construcción del Centro Dermatológico de Santiago",
+        titulo: "Durante la construccion del Centro Dermatologico de Santiago",
         url: "https://i.ibb.co/NghcTYGz/Durock.jpg",
       },
+
       {
-        titulo: "Construcción de hospital de San Francisco",
+        titulo: "Construccion de hospital de San Francisco",
         url: "https://i.ibb.co/BHdX2pCz/fachadas-de-durock-permeabase-securock-D-NQ-NP-932199-MLM27417909381-052018-F.jpg",
       },
     ],
@@ -218,20 +213,19 @@ export const DataExample = {
         url: "https://youtube.com/shorts/-_jjckbQxPY?si=BfClUoh7clgmzZE2",
       },
       {
-        titulo: "Fabricante: ¿Cómo instalar Durock?",
+        titulo: "Fabricante: ¿Como instalar Durock?",
         url: "https://youtu.be/GZ_9i0rw6y4?si=LbpLMGbC-rvHMyc1",
       },
       {
-        titulo: "El Alteron: ¿Cómo instalar Durock?",
+        titulo: "El Alteron: ¿Como instalar Durock?",
         url: "https://youtu.be/w9AgD8SrDgQ?si=5XUbx0NZRDyeyliD",
       },
       {
-        titulo: "Presentación en proyecto",
+        titulo: "Presentacion en proyecto",
         url: "https://youtu.be/MheRLllCzGA?si=EMeL_eAiISnn9yQW",
       },
     ],
   },
-
   comentarios: [
     {
       user: "jperez",
@@ -239,8 +233,9 @@ export const DataExample = {
       apellido: "Sanchez",
       avatar: ImgJenni,
       fecha: "01/08/2024 08:49:54:721 AM",
+
       texto:
-        "Es un buen producto, pero no instalarlo correctamente puede traer grandes pérdidas. El cliente Juan De La Rosa tuvo una situación con su personal en un proyecto próximo a la Lincoln.",
+        "Es un buen producto pero no instalar correctamente puede traer grandes perdidas, el cliente Juan De La Rosa tuvo una situacion con su personal en un proyecto proximo a la Lincoln.",
     },
     {
       user: "#",
@@ -248,8 +243,9 @@ export const DataExample = {
       apellido: "Kindelan",
       avatar: ImgKostia,
       fecha: "01/07/2024 08:49:54:721 AM",
+
       texto:
-        "Jennifer tiene razón, pero para eso estamos nosotros como empresa: para apoyar y asesorar a nuestros clientes.",
+        "Jennifer tiene razon pero para eso estamos nosotros como empresa; para apoyar y asesorar a nuestros clientes.",
     },
     {
       user: "kgattas",
@@ -257,22 +253,21 @@ export const DataExample = {
       apellido: "Gattas",
       avatar: ImgKarla,
       fecha: "01/09/2024 08:49:54:721 AM",
-      texto: "Yo también tuve una disconformidad con mi cliente.",
+      texto: "Yo tambien tuve una disconformidad con mi cliente.",
     },
   ],
-
   complementos: [
     // complementos schema
     {
       codigo: "04024",
       funcion:
-        "Es utilizada para fraguar el Durock, primero en las juntas y luego en toda la plancha; básicamente, empañeta la plancha.",
+        "Es utilizada para fraguar el Durock, primero en las juntas y luego en toda la plancha, basicamente empañeta la planta.",
       cuandoUtilizar:
-        "Es imprescindible empañetar la plancha para una correcta instalación.",
+        "Es imprecindible empañetar la plancha para una correcta instalacion.",
       alternativas: [
         {
           codigo: "04079",
-          descripcion: "Masilla Base Coat Mapei",
+          descripcion: "Masilla Base coat Mapei",
         },
         {
           codigo: "04021",
@@ -280,8 +275,8 @@ export const DataExample = {
         },
       ],
       observaciones: [
-        "Es el producto más recomendado para Durock",
-        "Es el único mortero capaz de resistir exterior en clima extremo.",
+        "Es el producto mas recomendado para Durock",
+        "Es el unico mortero capaz de recistir exterior en clima extremo.",
       ],
     },
     {
@@ -348,7 +343,6 @@ export const DataExample = {
       observaciones: [""],
     },
   ],
-
   alternativas: [
     {
       codigo: "03006",
@@ -369,13 +363,13 @@ export const DataExample = {
       codigo: "03102",
       descripcion: `Plancha de Securock 4' x 8' - 1/2" (ME12GMSH08)`,
       img: "https://i.ibb.co/b5XGB9BF/Whats-App-Image-2025-02-13-at-11-08-00-AM.jpg",
-      obs: `Es una opción más económica, menos resistente pero altamente funcional.`,
+      obs: `Es una opcion mas economica, menos resistente pero altamente funcional.`,
     },
     {
       codigo: "03071",
       descripcion: `Plancha de DensGlass 4' x 8' - 1/2" (855254)`,
       img: "https://i.ibb.co/wFZwLNmc/Whats-App-Image-2025-02-13-at-11-08-02-AM-2.jpg",
-      obs: `Es un panel con núcleo de yeso resistente a humedad y cobertura de fibra de vidrio ideal para fachadas.`,
+      obs: `Es un panel con nucleo de yeso resistente a humedad y covertura de fibra de vidrio ideal para fachadas.`,
     },
   ],
 };

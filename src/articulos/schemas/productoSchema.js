@@ -88,6 +88,9 @@ export const productoSchema = {
   textosDetalles: [
     // strings para parrafos
   ],
+  material: [
+    // strings para parrafos
+  ],
   caracteristicas: [
     // strings para lista
   ],

@@ -525,6 +525,7 @@ export const TablaCiclo03EnPuerto = ({ userMaster }) => {
 
   // *******************GUARDAR EN BASE DE DATOS***************
   const guardarCambios = async () => {
+    console.log("entro");
     const hasPermiso = userMaster.permisos.includes("planificacionPuertoIMS");
     if (!hasPermiso) {
       return;
@@ -538,23 +539,35 @@ export const TablaCiclo03EnPuerto = ({ userMaster }) => {
           return furgon;
         }
       });
+      console.log(furgonesPlanificados);
+      if (furgonesPlanificados.length === 0) {
+        const furgonesNormal = listaFurgonesEditable.filter(
+          (furgon) => !furgon.isCargaSuelta
+        );
+        for (const furgon of furgonesNormal) {
+          const furgonActualizar = doc(db, "furgones", furgon.id);
+          batch.update(furgonActualizar, {
+            planificado: false,
+            fechaRecepProg: "",
+          });
+        }
+      } else {
+        const furgonesNormal = furgonesPlanificados.filter(
+          (furgon) => !furgon.isCargaSuelta
+        );
 
-      const furgonesNormal = furgonesPlanificados.filter(
-        (furgon) => !furgon.isCargaSuelta
-      );
-
-      for (const furgon of furgonesNormal) {
-        const furgonActualizar = doc(db, "furgones", furgon.id);
-        batch.update(furgonActualizar, {
-          fechas: furgon.fechas,
-          destino: furgon.destino,
-          fechaRecepProg: furgon.fechaRecepProg,
-          // standBy: furgon.standBy,
-          planificado: furgon.planificado,
-          status: 2,
-        });
+        for (const furgon of furgonesNormal) {
+          const furgonActualizar = doc(db, "furgones", furgon.id);
+          batch.update(furgonActualizar, {
+            fechas: furgon.fechas,
+            destino: furgon.destino,
+            fechaRecepProg: furgon.fechaRecepProg,
+            // standBy: furgon.standBy,
+            planificado: furgon.planificado,
+            status: 2,
+          });
+        }
       }
-
       // ************ CARGA SUELTA ************
       const partidasCargaSuelta = furgonesPlanificados.filter(
         (furgon) => furgon.isCargaSuelta

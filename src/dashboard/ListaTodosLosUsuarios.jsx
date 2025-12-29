@@ -10,6 +10,7 @@ import { PlantillaCorreoAbierta } from "../libs/PlantillasCorreo/PlantillaCorreo
 import ActualizarDoc from "./ActualizarDoc";
 import EnviarCorreo from "./EnviarCorreo";
 import { useDocByCondition } from "../libs/useDocByCondition";
+import CopiarCorreos from "./CopiarCorreos";
 
 export default function ListaTodosLosUsuarios({}) {
   // Extrar un grupo de documentos por una condicion
@@ -73,6 +74,7 @@ export default function ListaTodosLosUsuarios({}) {
 
   return (
     <Container>
+      <CopiarCorreos />
       <ActualizarDoc />
       {/* <EnviarCorreo dbUsuario={dbUsuario} /> */}
       <>

@@ -28,6 +28,7 @@ import {
 } from "../schemas/productoSchema";
 import { Alerta } from "../../components/Alerta";
 import { generarUUID } from "../../libs/generarUUID";
+import Material from "./components/detallesItems/Material";
 
 export default function DetalleArticulo({ userMaster }) {
   // **************** RECURSOS GENERALES ****************
@@ -141,6 +142,17 @@ export default function DetalleArticulo({ userMaster }) {
         </CajaElemento>
       </Seccion>
       <Seccion>
+        <Titulo>Se compone de:</Titulo>
+        <CajaElemento>
+          <Material
+            productMaster={productMaster}
+            productEditable={productEditable}
+            setProductoEditable={setProductoEditable}
+            modoEditar={modoEditar}
+          />
+        </CajaElemento>
+      </Seccion>
+      <Seccion>
         <Titulo>Caracteristicas</Titulo>
         <CajaElemento>
           <Caracteristicas
@@ -162,6 +174,7 @@ export default function DetalleArticulo({ userMaster }) {
           />
         </CajaElemento>
       </Seccion>
+
       <Seccion>
         <Titulo>Datos tecnicos:</Titulo>
         <CajaElemento>
